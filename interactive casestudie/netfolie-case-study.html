@@ -1,0 +1,2430 @@
+<!DOCTYPE html>
+<!-- Last Published: Tue Dec 31 2024 11:22:38 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="www.unbearable.design" data-wf-page="6745ce6998fb69087b5a96db" data-wf-site="672dc217e27ecc7b1096daa2" lang="en">
+    <!-- Mirrored from www.unbearable.design/netfolie-case-study by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Jan 2025 11:17:26 GMT -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Netfolie Case Study</title>
+        <meta content="Learn how I brought Netfolie&#x27;s high-end website design to life with advanced animations, interactive elements, and scroll-based motion effects." name="description" />
+        <meta content="Netfolie Case Study" property="og:title" />
+        <meta content="Learn how I brought Netfolie&#x27;s high-end website design to life with advanced animations, interactive elements, and scroll-based motion effects." property="og:description" />
+        <meta content="Netfolie Case Study" property="twitter:title" />
+        <meta content="Learn how I brought Netfolie&#x27;s high-end website design to life with advanced animations, interactive elements, and scroll-based motion effects." property="twitter:description" />
+        <meta property="og:type" content="website" />
+        <meta content="summary_large_image" name="twitter:card" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="dcnmTWE6Ujae7R-csySwi3DaTf0sgdQ7r1pi19y-gxk" name="google-site-verification" />
+        <link href="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/css/mika-unbearable-design.webflow.b230bdc10.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+            !(function (o, c) {
+                var n = c.documentElement,
+                    t = " w-mod-";
+                (n.className += t + "js"), ("ontouchstart" in o || (o.DocumentTouch && c instanceof DocumentTouch)) && (n.className += t + "touch");
+            })(window, document);
+        </script>
+        <link href="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6751c37e72e722080487076f_unberable_favicon_32.png" rel="shortcut icon" type="image/x-icon" />
+        <link href="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6751c334970f975eca291611_unberable_favicon_256.png" rel="apple-touch-icon" />
+        <link href="netfolie-case-study.html" rel="canonical" />
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HP4GZL3418"></script>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("set", "developer_id.dZGVlNj", true);
+            gtag("config", "G-HP4GZL3418");
+        </script>
+        <script>
+            (function (global) {
+                global.pageFunctions = global.pageFunctions || {
+                    executed: {},
+                    functions: {},
+                    addFunction: function (id, fn) {
+                        if (!this.functions[id]) this.functions[id] = fn;
+                    },
+                    executeFunctions: function () {
+                        if (this.added) return;
+                        this.added = true;
+                        for (const id in this.functions) {
+                            if (!this.executed[id]) {
+                                try {
+                                    this.functions[id]();
+                                    this.executed[id] = true;
+                                } catch (e) {
+                                    console.error(`Error executing function ${id}:`, e);
+                                }
+                            }
+                        }
+                    },
+                };
+            })(window);
+        </script>
+
+        <style>
+            html.lenis {
+                height: auto;
+            }
+
+            .lenis.lenis-smooth {
+                scroll-behavior: auto;
+            }
+
+            .lenis.lenis-smooth [data-lenis-prevent] {
+                overscroll-behavior: contain;
+            }
+
+            .lenis.lenis-stopped {
+                overflow: hidden;
+            }
+
+            .lenis.lenis-scrolling iframe {
+                pointer-events: none;
+            }
+        </style>
+    </head>
+    <body data-theme="light">
+        <div class="page_wrap">
+            <div class="page_code_wrap">
+                <div class="page_code_base w-embed">
+                    <style>
+                        :root {
+                            --site--column-count: 12;
+                            --site--width-inner: calc(var(--site--width) - (var(--site--margin) * 2));
+                            --site--gutter-total: calc(var(--site--gutter) * (var(--site--column-count) - 1));
+                            --site--grid-width: min(var(--site--width-inner), var(--container--full));
+                            --container--full: calc(100vw - (var(--site--margin) * 2));
+                            --container--small: calc(var(--column-width) * (var(--site--column-count) - 2) - var(--site--gutter));
+                            --container--main: calc(var(--column-width) * var(--site--column-count) - var(--site--gutter));
+                            --column-width: calc((var(--site--grid-width) - var(--site--gutter-total)) / var(--site--column-count) + var(--site--gutter));
+                            --column-width--1: calc(var(--column-width) * 1 - var(--site--gutter));
+                            --column-width--2: calc(var(--column-width) * 2 - var(--site--gutter));
+                            --column-width--3: calc(var(--column-width) * 3 - var(--site--gutter));
+                            --column-width--4: calc(var(--column-width) * 4 - var(--site--gutter));
+                            --column-width--5: calc(var(--column-width) * 5 - var(--site--gutter));
+                            --column-width--6: calc(var(--column-width) * 6 - var(--site--gutter));
+                            --column-width--7: calc(var(--column-width) * 7 - var(--site--gutter));
+                            --column-width--8: calc(var(--column-width) * 8 - var(--site--gutter));
+                            --column-width--9: calc(var(--column-width) * 9 - var(--site--gutter));
+                            --column-width--10: calc(var(--column-width) * 10 - var(--site--gutter));
+                            --column-width--11: calc(var(--column-width) * 11 - var(--site--gutter));
+                            --column-width--12: calc(var(--column-width) * 12 - var(--site--gutter));
+                            --column-margin--1: calc(var(--column-width) * 1);
+                            --column-margin--2: calc(var(--column-width) * 2);
+                            --column-margin--3: calc(var(--column-width) * 3);
+                            --column-margin--4: calc(var(--column-width) * 4);
+                            --column-margin--5: calc(var(--column-width) * 5);
+                            --column-margin--6: calc(var(--column-width) * 6);
+                            --column-margin--7: calc(var(--column-width) * 7);
+                            --column-margin--8: calc(var(--column-width) * 8);
+                            --column-margin--9: calc(var(--column-width) * 9);
+                            --column-margin--10: calc(var(--column-width) * 10);
+                            --column-margin--11: calc(var(--column-width) * 11);
+                            --column-margin--12: calc(var(--column-width) * 12);
+                            --breakout-start: [full-start] minmax(0, 1fr) [content-start];
+                            --breakout-end: [content-end] minmax(0, 1fr) [full-end];
+                            --grid-breakout-single: var(--breakout-start) minmax(0, var(--site--grid-width)) var(--breakout-end);
+                            --grid-breakout: var(--breakout-start) repeat(var(--site--column-count), minmax(0, calc((var(--site--grid-width) - var(--site--gutter-total)) / var(--site--column-count)))) var(--breakout-end);
+                            --grid-main: repeat(var(--site--column-count), minmax(0, 1fr));
+                            --grid-1: repeat(1, minmax(0, 1fr));
+                            --grid-2: repeat(2, minmax(0, 1fr));
+                            --grid-3: repeat(3, minmax(0, 1fr));
+                            --grid-4: repeat(4, minmax(0, 1fr));
+                            --grid-5: repeat(5, minmax(0, 1fr));
+                            --grid-6: repeat(6, minmax(0, 1fr));
+                            --grid-7: repeat(7, minmax(0, 1fr));
+                            --grid-8: repeat(8, minmax(0, 1fr));
+                            --grid-9: repeat(9, minmax(0, 1fr));
+                            --grid-10: repeat(10, minmax(0, 1fr));
+                            --grid-11: repeat(11, minmax(0, 1fr));
+                            --grid-12: repeat(12, minmax(0, 1fr));
+
+                            --font-weight--inherit: inherit;
+                            --font-weight--100: 100;
+                            --font-weight--200: 200;
+                            --font-weight--300: 300;
+                            --font-weight--400: 400;
+                            --font-weight--500: 500;
+                            --font-weight--600: 600;
+                            --font-weight--700: 700;
+                            --font-weight--800: 800;
+                            --font-weight--900: 900;
+                            --text-transform--none: none;
+                            --text-transform--uppercase: uppercase;
+                            --text-transform--capitalize: capitalize;
+                            --text-transform--lowercase: lowercase;
+                            --text-transform--inherit: inherit;
+                        }
+                        * {
+                            vertical-align: bottom;
+                        }
+                        body {
+                            font-weight: var(--text-main--font-weight);
+                            text-transform: var(--text-main--text-transform);
+                            font-smoothing: antialiased;
+                            -webkit-font-smoothing: antialiased;
+                        }
+                        label,
+                        blockquote {
+                            font-size: inherit;
+                            line-height: inherit;
+                            font-weight: inherit;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                        button {
+                            background-color: unset;
+                            padding: unset;
+                            text-align: inherit;
+                        }
+                        button:not(:disabled) {
+                            cursor: pointer;
+                        }
+                        video {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                        video.wf-empty {
+                            padding: 0;
+                        }
+                        svg {
+                            max-width: 100%;
+                        }
+                        section,
+                        header,
+                        footer {
+                            position: relative;
+                        }
+                        @media (prefers-color-scheme: light) {
+                            option {
+                                color: black;
+                            }
+                        }
+                        img::selection {
+                            background: transparent;
+                        }
+                        a:not([class]) {
+                            text-decoration: underline;
+                        }
+                        .w-richtext a {
+                            position: relative;
+                            z-index: 4;
+                        }
+                        [class*="u-text-style-"] > :where(h1, h2, h3, h4, h5, h6, p, blockquote) {
+                            font-family: inherit;
+                            font-size: inherit;
+                            font-weight: inherit;
+                            line-height: inherit;
+                            letter-spacing: inherit;
+                            text-transform: inherit;
+                            text-wrap: inherit;
+                            margin-top: inherit;
+                            margin-bottom: inherit;
+                        }
+                        :not(.u-margin-trim-off, .u-block-gap) > :first-child,
+                        :not(.u-margin-trim-off, .u-block-gap) > :not(:not(.w-condition-invisible) ~ :not(.w-condition-invisible)) {
+                            margin-top: 0;
+                        }
+                        :not(.u-margin-trim-off, .u-block-gap) > :last-child,
+                        :not(.u-margin-trim-off, .u-block-gap) > :not(:has(~ :not(.w-condition-invisible))) {
+                            margin-bottom: 0;
+                        }
+
+                        .u-hide-if-empty:empty,
+                        .u-hide-if-empty:not(:has(> :not(.w-condition-invisible))),
+                        .u-hide-if-empty-cms:not(:has(.w-dyn-item)),
+                        .w-richtext[class*="u-text-style-"] > :not(h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, span),
+                        .u-embed-js,
+                        .u-embed-css {
+                            display: none !important;
+                        }
+
+                        .u-line-clamp-1,
+                        .u-line-clamp-2,
+                        .u-line-clamp-3,
+                        .u-line-clamp-4 {
+                            -webkit-line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                        }
+                        .u-line-clamp-2 {
+                            -webkit-line-clamp: 2;
+                        }
+                        .u-line-clamp-3 {
+                            -webkit-line-clamp: 3;
+                        }
+                        .u-line-clamp-4 {
+                            -webkit-line-clamp: 4;
+                        }
+
+                        a,
+                        button,
+                        [tabindex],
+                        .w-checkbox-input--inputType-custom,
+                        .w-form-formradioinput--inputType-custom {
+                            outline-offset: var(--focus--offset-outer);
+                        }
+                        a:focus-visible,
+                        button:focus-visible,
+                        [tabindex]:focus-visible,
+                        .w-checkbox:has(:focus-visible) .w-checkbox-input--inputType-custom,
+                        .w-radio:has(:focus-visible) .w-form-formradioinput--inputType-custom {
+                            outline-color: var(--theme--text);
+                            outline-width: var(--focus--width);
+                            outline-style: solid;
+                        }
+                        .w-checkbox-input--inputType-custom.w--redirected-focus,
+                        .w-form-formradioinput--inputType-custom.w--redirected-focus {
+                            box-shadow: none;
+                        }
+
+                        .u-block-gap {
+                            --gap: var(--content-space--button-group-gap);
+                            --gap-x: var(--gap);
+                            --gap-y: var(--gap);
+                        }
+                        .u-block-gap > * {
+                            margin-inline: calc(var(--gap-x) / 2);
+                            margin-top: var(--gap-y);
+                            vertical-align: inherit;
+                        }
+                        :where(.u-block-gap > *) {
+                            display: inline-block;
+                        }
+                        .u-block-gap::before {
+                            content: "";
+                            display: block;
+                            margin-bottom: calc(var(--gap-y) * -1);
+                        }
+
+                        .u-block-gap-vertical {
+                            --gap: 0;
+                            --margin: var(--gap);
+                        }
+                        .u-block-gap-vertical > * {
+                            margin-top: var(--margin);
+                            margin-bottom: 0;
+                        }
+
+                        .u-gap-0 {
+                            --gap: 0;
+                        }
+                        .u-gap-1 {
+                            --gap: var(--space--1);
+                        }
+                        .u-gap-2 {
+                            --gap: var(--space--2);
+                        }
+                        .u-gap-3 {
+                            --gap: var(--space--3);
+                        }
+                        .u-gap-4 {
+                            --gap: var(--space--4);
+                        }
+                        .u-gap-5 {
+                            --gap: var(--space--5);
+                        }
+                        .u-gap-6 {
+                            --gap: var(--space--6);
+                        }
+                        .u-gap-7 {
+                            --gap: var(--space--7);
+                        }
+                        .u-gap-8 {
+                            --gap: var(--space--8);
+                        }
+                        .u-gap-gutter {
+                            --gap: var(--site--gutter);
+                        }
+                        .u-gap-row-0 {
+                            --gap-y: 0;
+                        }
+                        .u-gap-row-1 {
+                            --gap-y: var(--space--1);
+                        }
+                        .u-gap-row-2 {
+                            --gap-y: var(--space--2);
+                        }
+                        .u-gap-row-3 {
+                            --gap-y: var(--space--3);
+                        }
+                        .u-gap-row-4 {
+                            --gap-y: var(--space--4);
+                        }
+                        .u-gap-row-5 {
+                            --gap-y: var(--space--5);
+                        }
+                        .u-gap-row-6 {
+                            --gap-y: var(--space--6);
+                        }
+                        .u-gap-row-7 {
+                            --gap-y: var(--space--7);
+                        }
+                        .u-gap-row-8 {
+                            --gap-y: var(--space--8);
+                        }
+                        .u-gap-row-gutter {
+                            --gap-y: var(--site--gutter);
+                        }
+
+                        .u-child-contain > * {
+                            display: inline-block;
+                            width: 100%;
+                            max-width: inherit;
+                            margin-top: 0;
+                        }
+
+                        .u-text-margin-none :is([class*="u-text-style-"], h1, h2, h3, h4, h5, h6, p) {
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+
+                        [data-padding-top="none"] {
+                            padding-top: var(--section-space--none);
+                        }
+                        [data-padding-bottom="none"] {
+                            padding-bottom: var(--section-space--none);
+                        }
+
+                        [data-padding-top="small"] {
+                            padding-top: var(--section-space--small);
+                        }
+                        [data-padding-bottom="small"] {
+                            padding-bottom: var(--section-space--small);
+                        }
+
+                        [data-padding-top="main"] {
+                            padding-top: var(--section-space--main);
+                        }
+                        [data-padding-bottom="main"] {
+                            padding-bottom: var(--section-space--main);
+                        }
+
+                        [data-padding-top="large"] {
+                            padding-top: var(--section-space--large);
+                        }
+                        [data-padding-bottom="large"] {
+                            padding-bottom: var(--section-space--large);
+                        }
+
+                        .wf-design-mode .g_clickable_wrap {
+                            z-index: 0;
+                        }
+                        .g_clickable_wrap a[href="#"] {
+                            display: none;
+                        }
+                        .g_clickable_wrap a[href="#"] ~ button {
+                            display: block;
+                        }
+                    </style>
+                </div>
+                <div class="page_code_color w-embed">
+                    <style>
+                        /* theme light */
+                        :root,
+                        [data-theme="light"],
+                        [data-theme="dark"] [data-theme="invert"] {
+                            --theme--background: var(--swatch--light);
+                            --theme--text: var(--swatch--dark);
+                            --theme--border: var(--swatch--dark-faded);
+                            --theme--toggle-offset: 0px;
+                            /* button primary */
+                            --button--background: var(--swatch--brand);
+                            --button--text: var(--swatch--brand-text);
+                            --button--border: var(--swatch--brand);
+                            --button--background-hover: var(--swatch--dark);
+                            --button--text-hover: var(--swatch--light);
+                            --button--border-hover: var(--swatch--dark);
+                            /* button secondary */
+                            --button-secondary--background: var(--swatch--transparent);
+                            --button-secondary--text: var(--swatch--dark);
+                            --button-secondary--border: var(--swatch--dark-faded);
+                            --button-secondary--background-hover: var(--swatch--brand);
+                            --button-secondary--text-hover: var(--swatch--brand-text);
+                            --button-secondary--border-hover: var(--swatch--brand);
+                        }
+                        /* theme dark */
+                        [data-theme="dark"],
+                        [data-theme="invert"],
+                        [data-theme="light"] [data-theme="invert"] {
+                            --theme--background: var(--swatch--dark);
+                            --theme--text: var(--swatch--light);
+                            --theme--border: var(--swatch--light-faded);
+                            --theme--toggle-offset: calc(100% / 2 - var(--border-width--main) * 2);
+                            /* button primary */
+                            --button--background: var(--swatch--brand);
+                            --button--text: var(--swatch--brand-text);
+                            --button--border: var(--swatch--brand);
+                            --button--background-hover: var(--swatch--light);
+                            --button--text-hover: var(--swatch--dark);
+                            --button--border-hover: var(--swatch--light);
+                            /* button secondary */
+                            --button-secondary--background: var(--swatch--transparent);
+                            --button-secondary--text: var(--swatch--light);
+                            --button-secondary--border: var(--swatch--light-faded);
+                            --button-secondary--background-hover: var(--swatch--brand);
+                            --button-secondary--text-hover: var(--swatch--brand-text);
+                            --button-secondary--border-hover: var(--swatch--brand);
+                        }
+                        /* button secondary */
+                        [data-button-style="secondary"] {
+                            --button--background: var(--button-secondary--background);
+                            --button--text: var(--button-secondary--text);
+                            --button--border: var(--button-secondary--border);
+                            --button--background-hover: var(--button-secondary--background-hover);
+                            --button--text-hover: var(--button-secondary--text-hover);
+                            --button--border-hover: var(--button-secondary--border-hover);
+                        }
+                        /* apply colors */
+                        :is(c, :where([data-theme]:not([data-theme="inherit"]))) {
+                            background-color: var(--theme--background);
+                            color: var(--theme--text);
+                        }
+                    </style>
+                </div>
+                <div class="page_code_responsive w-embed">
+                    <style>
+                        /* https://fluidbuilder.webflow.io/?design=90&max=90&min=20&f&g=--site--margin,3,1_--size--2rem,2,1.75_--size--2-5rem,2.5,2_--size--3rem,3,2.25_--size--3-5rem,3.5,2.375_--size--4rem,4,2.5_--size--4-5rem,4.5,2.75_--size--5rem,5,3_--size--5-5rem,5.5,3.25_--size--6rem,6,3.5_--size--6-5rem,6.5,3.75_--size--7rem,7,4_--size--7-5rem,7.5,4.25_--size--8rem,8,4.5_--size--8-5rem,8.5,4.75_--size--9rem,9,5_--size--9-5rem,9.5,5.25_--size--10rem,10,5.5_--size--11rem,11,5.75_--size--12rem,12,6_--size--13rem,13,6.5_--size--14rem,14,7_--size--15rem,15,7.5_--size--16rem,16,8 */
+
+                        :root {
+                            --site--margin: clamp(1rem, 0.428rem + 2.86vw, 3rem);
+                            --size--2rem: clamp(1.75rem, 1.678rem + 0.36vw, 2rem);
+                            --size--2-5rem: clamp(2rem, 1.858rem + 0.71vw, 2.5rem);
+                            --size--3rem: clamp(2.25rem, 2.036rem + 1.07vw, 3rem);
+                            --size--3-5rem: clamp(2.375rem, 2.053rem + 1.61vw, 3.5rem);
+                            --size--4rem: clamp(2.5rem, 2.072rem + 2.14vw, 4rem);
+                            --size--4-5rem: clamp(2.75rem, 2.25rem + 2.5vw, 4.5rem);
+                            --size--5rem: clamp(3rem, 2.428rem + 2.86vw, 5rem);
+                            --size--5-5rem: clamp(3.25rem, 2.608rem + 3.21vw, 5.5rem);
+                            --size--6rem: clamp(3.5rem, 2.786rem + 3.57vw, 6rem);
+                            --size--6-5rem: clamp(3.75rem, 2.964rem + 3.93vw, 6.5rem);
+                            --size--7rem: clamp(4rem, 3.142rem + 4.29vw, 7rem);
+                            --size--7-5rem: clamp(4.25rem, 3.322rem + 4.64vw, 7.5rem);
+                            --size--8rem: clamp(4.5rem, 3.5rem + 5vw, 8rem);
+                            --size--8-5rem: clamp(4.75rem, 3.678rem + 5.36vw, 8.5rem);
+                            --size--9rem: clamp(5rem, 3.858rem + 5.71vw, 9rem);
+                            --size--9-5rem: clamp(5.25rem, 4.036rem + 6.07vw, 9.5rem);
+                            --size--10rem: clamp(5.5rem, 4.214rem + 6.43vw, 10rem);
+                            --size--11rem: clamp(5.75rem, 4.25rem + 7.5vw, 11rem);
+                            --size--12rem: clamp(6rem, 4.286rem + 8.57vw, 12rem);
+                            --size--13rem: clamp(6.5rem, 4.642rem + 9.29vw, 13rem);
+                            --size--14rem: clamp(7rem, 5rem + 10vw, 14rem);
+                            --size--15rem: clamp(7.5rem, 5.358rem + 10.71vw, 15rem);
+                            --size--16rem: clamp(8rem, 5.714rem + 11.43vw, 16rem);
+                        }
+                    </style>
+                </div>
+                <div class="page_code_custom w-embed">
+                    <style>
+
+                        /* main button hover animation */
+                          .cta .button_circle_wrapper {
+                            transform: translateX(0%);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta:hover .button_circle_wrapper {
+                            transform: translateX(100%);
+                          }
+
+                          .cta .button4_bg {
+                            width: 3.5em;
+                            background-color: var(--swatch--brand-secondary);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta:hover .button4_bg {
+                            background-color: var(--swatch--brand);
+                            width: 100%;
+                          }
+
+                          .cta:active .button4_bg {
+                            background-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta .button4_text {
+                            color: var(--theme--text);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta:hover .button4_text {
+                            margin-left: 0em;
+                            margin-right: 3em;
+                            color: var(--swatch--light);
+                          }
+
+                          .cta:active .button4_text {
+                            color: var(--theme--background);
+                            transition: color 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta .button4_circle {
+                            color: var(--swatch--dark);
+                            transition: color 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta:hover .button4_circle {
+                            color: var(--swatch--light);
+                          }
+
+                          .cta:active .button4_circle {
+                            color: var(--theme--background);
+                            transition: color 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+
+                        /* link hover animation  */
+
+                          .link_underline {
+                            transform: scale(0, 1);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .link_cta_container:hover .link_underline{
+                            transform: scale(1,1);
+                            background-color: var(--swatch--brand);
+                          }
+
+                          .link_cta_container:active .link_underline {
+                            background-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .link_cta_container {
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .link_cta_container:hover {
+                            color: var(--swatch--brand);
+                          }
+
+                          .link_cta_container:active {
+                            color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+
+                        /* testimonials hero section hover animation  */
+
+                          .testimonial_hero .link_underline {
+                            transform: scale(0, 1);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .testimonial_hero:hover .link_underline {
+                            transform: scale(1,1);
+                            background-color: var(--swatch--brand);
+                          }
+
+                          .testimonial_hero:active .link_underline {
+                            background-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .testimonial_hero .link_cta_container {
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .testimonial_hero:hover .link_cta_container {
+                            color: var(--swatch--brand);
+                          }
+
+                          .testimonial_hero:active .link_cta_container {
+                            color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+
+                        /* skills hero section hover animation  */
+
+                          .skill_block.link {
+                            width: auto;
+                            color: var(--swatch--dark);
+                            background-color: var(--swatch--brand-secondary);
+                            border-color: var(--swatch--brand-secondary);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .skill_block.link:hover {
+                            color: var(--swatch--light);
+                            background-color: var(--swatch--brand);
+                            border-color: var(--swatch--brand);
+                          }
+
+                          .skill_block.link .button3_icon{
+                            margin-left: 0;
+                            transition: margin 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .skill_block.link:hover .button3_icon{
+                            margin-left: 2.5em;
+                          }
+
+                          .skill_block.link:active {
+                            color: var(--theme--background);
+                            background-color: var(--theme--text);
+                            border-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+
+                        /* cta outline hover animation  */
+
+                          .cta_outline.link {
+                            width: auto;
+                            color: var(--theme--text);
+                            border-color: var(--theme--border);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta_outline.link:hover {
+                            color: var(--swatch--light);
+                            background-color: var(--swatch--brand);
+                            border-color: var(--swatch--brand);
+                          }
+
+                          .cta_outline.link .cta_outline_icon_wrapper {
+                            transform: translateX(0%);
+                            transition: transform 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta_outline.link:hover .cta_outline_icon_wrapper {
+                            transform: translateX(100%);
+                          }
+
+                          .cta_outline.link .cta_text {
+                            transition: margin 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .cta_outline.link:hover .cta_text {
+                            margin-left: 0em;
+                            margin-right: calc(var(--space--5) + calc(var(--text-large--font-size)/2));
+                          }
+
+                          .cta_outline.link:active {
+                            color: var(--theme--background);
+                            background-color: var(--theme--text);
+                            border-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+
+                        /* Textimonials section arrows animation  */
+
+                          .ts_navigation_blocks .skill_block_alt.link {
+                            width: 4em;
+                            color: var(--theme--text);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .ts_navigation_blocks:hover .skill_block_alt.link {
+                            width: 5em;
+                            color: var(--theme--background);
+                          }
+
+                          .ts_navigation_blocks:active{
+                            background-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                        /* marquee animation  */
+
+                          .marquee_animation {
+                            animation: marquee_animation linear infinite;
+                          }
+
+                          @keyframes marquee_animation {
+                            0% {
+                              transform: translateX(0);
+                            }
+                            100% {
+                              transform: translateX(-100%);
+                            }
+
+                          }
+
+                          .marquee_container:hover .marquee_content,
+                          .marquee_container:hover .clone {
+                            animation-play-state: paused;
+                          }
+
+                        /* rotazione cta hero  */
+
+                          .circle-cta {
+                            animation: rotate 30s linear infinite;
+                          }
+
+                          @keyframes rotate {
+                            from {
+                              transform: rotate(0deg);
+                            }
+                            to {
+                              transform: rotate(-360deg);
+                            }
+                          }
+
+                        /* Envelope lottie color control  */
+
+                          .get_in_touch_cta .circle_hover {
+                            transform: scale(0, 0);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .get_in_touch_cta:hover .circle_hover {
+                            transform: scale(1, 1);
+                          }
+
+                          .get_in_touch_cta:active .circle_hover {
+                            background-color: var(--theme--text);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .get_in_touch_cta .envelope_lottie {
+                            color: var(--swatch--dark);
+                            transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .get_in_touch_cta:hover .envelope_lottie {
+                            color: var(--swatch--light);
+                          }
+
+                          .get_in_touch_cta:active .envelope_lottie {
+                            color: var(--theme--background);
+                            transition: all 0ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                          }
+
+                          .envelope_lottie .custom-color {
+                            fill: currentColor;
+                            stroke: currentColor;
+                          }
+
+                        /* Case studies hero carousel drop shadow visible */
+
+                          .slick-list {
+                            overflow: visible; !important
+                        }
+
+                        /* marquee animation  */
+
+                          .welcome_animation {
+                            animation: welcome_animation linear infinite;
+                          }
+
+                          @keyframes welcome_animation {
+                            0% {
+                              transform: translateX(0);
+                            }
+                            100% {
+                              transform: translateX(-100%);
+                            }
+
+                          }
+                    </style>
+                </div>
+            </div>
+            <div class="styleguide_guide_wrap">
+                <div class="w-embed">
+                    <style>
+                        html:not(.wf-design-mode) .styleguide_guide_wrap {
+                            display: none;
+                        }
+                        .styleguide_guide_layout {
+                            counter-reset: gridguides;
+                        }
+                        .styleguide_guide_layout > div::before {
+                            counter-increment: gridguides;
+                            content: counter(gridguides);
+                        }
+                    </style>
+                </div>
+                <div data-padding-bottom="none" data-padding-top="none" class="styleguide_guide_contain u-container">
+                    <div class="styleguide_guide_layout u-grid-custom">
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                        <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_bar_minimum_script w-embed w-script">
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        gsap.registerPlugin(ScrollTrigger);
+
+                        const elements = document.querySelectorAll(".th1, .th2, .th3, .t1, .t2, .t3, .p1, .p2, .p3");
+
+                        // Aggiungi la classe state_0 a tutti gli elementi inizialmente
+                        elements.forEach((elem) => elem.classList.add("state_0"));
+
+                        // Funzioni per aggiungere e rimuovere classi di stato
+                        function addStateClass(state) {
+                            elements.forEach((elem) => elem.classList.add(state));
+                        }
+                        function removeStateClass(state) {
+                            elements.forEach((elem) => elem.classList.remove(state));
+                        }
+
+                        // Array di trigger e stati corrispondenti
+                        const triggers = [
+                            { trigger: ".cs_trigger_1", state: "state_1" },
+                            { trigger: ".cs_trigger_2", state: "state_2" },
+                            { trigger: ".cs_trigger_3", state: "state_3" },
+                            { trigger: ".cs_trigger_4", state: "state_4" },
+                        ];
+
+                        // Creazione degli ScrollTrigger
+                        triggers.forEach(({ trigger, state }) => {
+                            ScrollTrigger.create({
+                                trigger: trigger,
+                                scroller: document.body, // Utilizza lo scroller di Lenis
+                                start: "top 25%",
+                                end: "top top",
+                                onEnter: () => addStateClass(state),
+                                onLeaveBack: () => removeStateClass(state),
+                            });
+                        });
+                    });
+                </script>
+            </div>
+            <div class="page_main">
+                <div data-theme="inherit" class="nav_1_wrap">
+                    <div data-animation="default" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left-container shadow-three w-nav">
+                        <div class="container">
+                            <div class="navbar-wrapper">
+                                <a href="index.html" class="navbar-brand w-nav-brand">
+                                    <svg width="100%" height="100%" viewBox="0 0 181 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="unbearable_logo">
+                                        <path
+                                            d="M180.3,8.7c0-1.8-.8-3.3-2.4-4.3-1.6-1.1-3.8-1.6-6.5-1.6s-4.9.6-6.7,1.7c-1.7,1.1-2.6,2.6-2.6,4.5v.3c0,2.1.9,3.6,2.7,4.6,1.8,1,4.1,1.5,7,1.5s3.6-.2,5-.5c1.3-.3,2.3-.8,2.7-1.5l-2.8-2.2c-.6.5-1.4.8-2.2,1-.8.2-1.7.3-2.8.3-1.6,0-2.9-.3-3.7-.8-.6-.3-.9-.8-1.1-1.3h13.4v-1.6ZM166.9,7.7c.2-.5.5-.9,1-1.2.8-.6,1.8-.9,3.1-.9,1.8,0,3,.3,3.6.8.4.3.6.8.7,1.3h-8.5ZM154.8,15h4.8V.4h-4.8v14.6ZM150.2,4.5c-1.4-1.1-3.2-1.7-5.5-1.7s-2.7.1-3.7.4c-1,.3-1.8.7-2.4,1.2V.4h-4.8v14.6h4.7v-1.7h0c.5.6,1.3,1,2.4,1.3,1.1.3,2.3.5,3.6.5,2.4,0,4.3-.6,5.7-1.7,1.4-1.1,2.1-2.6,2.1-4.4v-.3c0-1.8-.7-3.2-2.1-4.3ZM147.4,9.3c0,.8-.4,1.5-1.1,2-.7.5-1.7.8-3.1.8s-2.1-.2-2.9-.5c-.8-.3-1.4-.8-1.7-1.3v-2.5c.3-.5.9-.9,1.7-1.2.8-.3,1.8-.5,2.9-.5s2.4.3,3.1.8c.7.5,1.1,1.2,1.1,1.9v.5ZM130.7,12.7v-6.4c0-1.2-.7-2.1-2.2-2.7-1.5-.6-3.5-.9-6-.9s-4.6.4-6.2,1.1c-1.6.7-2.4,1.7-2.4,2.9v.2h4.8v-.2c0-.3.3-.6.9-.8.6-.2,1.5-.3,2.7-.3s2.2,0,2.7.2.9.3.9.6v1.1h-4.1c-2.6,0-4.7.4-6.3,1.1-1.6.7-2.5,1.7-2.5,3.1s.6,2.1,1.9,2.7c1.3.6,2.8.9,4.6.9s3-.2,4.2-.5c1.2-.3,2-.8,2.3-1.2,0,.3,0,.5.2.8,0,.3.2.5.3.7h4.7v-.2c-.2-.2-.4-.6-.5-.9-.1-.4-.2-.8-.2-1.2ZM125.9,10.7c0,.5-.5.9-1.4,1.3-1,.3-2,.5-3.3.5s-2,0-2.5-.3c-.5-.2-.8-.5-.8-.8s.4-.8,1.2-1.1c.8-.3,1.9-.4,3.3-.4h3.6v.8ZM110.9,2.7c-.9,0-1.8.2-2.5.6-.8.4-1.3.9-1.7,1.4h0v-1.8h-4.8v12h4.8v-6.6c.3-.5.9-1,1.6-1.3.7-.4,1.5-.5,2.5-.5s.5,0,.7,0c.2,0,.5,0,.8,0v-3.8c-.2,0-.4,0-.6,0-.2,0-.5,0-.7,0ZM98.8,12.7v-6.4c0-1.2-.7-2.1-2.2-2.7-1.5-.6-3.5-.9-6-.9s-4.6.4-6.2,1.1c-1.6.7-2.4,1.7-2.4,2.9v.2h4.8v-.2c0-.3.3-.6.9-.8.6-.2,1.5-.3,2.7-.3s2.2,0,2.7.2c.6.1.9.3.9.6v1.1h-4.1c-2.6,0-4.7.4-6.3,1.1-1.6.7-2.5,1.7-2.5,3.1s.6,2.1,1.9,2.7c1.3.6,2.8.9,4.6.9s3-.2,4.2-.5c1.2-.3,2-.8,2.3-1.2,0,.3,0,.5.2.8,0,.3.2.5.3.7h4.7v-.2c-.2-.2-.4-.6-.5-.9-.1-.4-.2-.8-.2-1.2ZM94,10.7c0,.5-.5.9-1.4,1.3-1,.3-2,.5-3.3.5s-2,0-2.5-.3c-.5-.2-.8-.5-.8-.8s.4-.8,1.2-1.1c.8-.3,1.9-.4,3.3-.4h3.6v.8ZM77.4,4.3c-1.6-1.1-3.8-1.6-6.5-1.6s-4.9.6-6.7,1.7c-1.7,1.1-2.6,2.6-2.6,4.5v.3c0,2.1.9,3.6,2.7,4.6,1.8,1,4.1,1.5,7,1.5s3.6-.2,5-.5c1.3-.3,2.3-.8,2.7-1.5l-2.8-2.2c-.6.5-1.4.8-2.2,1s-1.7.3-2.8.3c-1.6,0-2.9-.3-3.7-.8-.6-.3-.9-.8-1.1-1.3h13.4v-1.6c0-1.8-.8-3.3-2.4-4.3ZM66.4,7.7c.2-.5.5-.9,1-1.2.8-.6,1.8-.9,3.1-.9,1.8,0,3.1.3,3.6.8.4.3.6.8.7,1.3h-8.5ZM57.6,4.5c-1.4-1.1-3.2-1.7-5.5-1.7s-2.7.1-3.7.4c-1,.3-1.8.7-2.4,1.2V.4h-4.8v14.6h4.7v-1.7h0c.5.6,1.3,1,2.4,1.3,1.1.3,2.3.5,3.6.5,2.4,0,4.3-.6,5.7-1.7,1.4-1.1,2.1-2.6,2.1-4.4v-.3c0-1.8-.7-3.2-2.1-4.3ZM54.7,9.3c0,.8-.4,1.5-1.1,2-.7.5-1.7.8-3.1.8s-2.1-.2-2.9-.5c-.8-.3-1.4-.8-1.7-1.3v-2.5c.3-.5.9-.9,1.7-1.2.8-.3,1.8-.5,2.9-.5s2.4.3,3.1.8c.7.5,1.1,1.2,1.1,1.9v.5ZM36.3,4.1c-1.3-.8-2.9-1.2-4.9-1.2s-2.4.2-3.4.5c-1,.3-1.8.9-2.5,1.6h0v-1.9h-4.8v12h4.8v-6.8c.4-.6,1-1.1,1.8-1.5.7-.4,1.6-.6,2.5-.6s1.9.2,2.6.6c.6.4.9,1.1.9,2.1v6.3h4.8v-6.2c0-2.3-.6-3.9-1.9-4.8ZM12.9,9.7c-.5.7-1,1.2-1.8,1.6-.7.4-1.5.6-2.5.6s-1.9-.2-2.5-.7c-.6-.4-1-1.3-1-2.4V3H.4v6.1c0,2.2.6,3.7,1.8,4.6,1.2.9,2.7,1.4,4.4,1.4s2.7-.1,3.8-.4c1-.3,1.9-.9,2.6-1.7v1.9h4.8V3h-4.8v6.7Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </a>
+                                <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+                                    <ul data-theme="invert" role="list" class="nav-menu-two w-list-unstyled">
+                                        <li class="list-item-2">
+                                            <div class="text-block-5"><span class="text-span-4">Case studies:</span></div>
+                                            <a href="archymos-case-study.html" class="link_cta_container w-inline-block">
+                                                <t class="link_cta">
+                                                    <span class="span-4">
+                                                        <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                            <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>Just desgin</span>
+                                                </t>
+                                                <div class="link_underline"></div>
+                                            </a>
+                                            <a href="netfolie-case-study.html" aria-current="page" class="link_cta_container w-inline-block w--current">
+                                                <t class="link_cta">
+                                                    <span class="span-4">
+                                                        <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                            <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>Just code</span>
+                                                </t>
+                                                <div class="link_underline"></div>
+                                            </a>
+                                            <a href="steady-growth-case-study.html" class="link_cta_container w-inline-block">
+                                                <t class="link_cta">
+                                                    <span class="span-4">
+                                                        <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                            <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>Design &amp; code</span>
+                                                </t>
+                                                <div class="link_underline"></div>
+                                            </a>
+                                        </li>
+                                        <li class="list-item"><div class="div-block-291"></div></li>
+                                        <li class="mobile-margin-top-10">
+                                            <a href="#contact" class="cta w-inline-block">
+                                                <div class="button_circle_wrapper">
+                                                    <div class="button4_circle">
+                                                        <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                            <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="button4_text">Get in touch</div>
+                                                <div class="button4_bg"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="div-block-104">
+                                    <div id="theme-toggle-btn" tr-color-toggle="" class="theme-toggle-btn">
+                                        <div class="div-block-106"></div>
+                                        <div class="div-block-107">
+                                            <div class="div-block-109">
+                                                <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="theme-icons">
+                                                    <path
+                                                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"
+                                                        fill="currentColor"
+                                                    ></path>
+                                                    <path
+                                                        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+                                                        fill="currentColor"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <div class="div-block-109">
+                                                <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="theme-icons">
+                                                    <path
+                                                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                                                        fill="currentColor"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="menu-button w-nav-button">
+                                        <div class="hamburger_9_wrap">
+                                            <div class="hamburger_9_line"></div>
+                                            <div class="hamburger_embed w-embed">
+                                                <style>
+                                                    .hamburger_9_wrap {
+                                                        --thickness: var(--border-width--main);
+                                                        --gap: 0.4rem;
+                                                        --rotate: 35;
+                                                    }
+                                                    .hamburger_9_wrap:hover .hamburger_9_line {
+                                                        width: 70%;
+                                                    }
+                                                    .hamburger_9_wrap:hover .hamburger_9_line:first-child {
+                                                        width: 50%;
+                                                    }
+                                                    .hamburger_9_wrap:hover .hamburger_9_line:last-child {
+                                                        width: 100%;
+                                                    }
+                                                    .w--open .hamburger_9_line {
+                                                        width: 60% !important;
+                                                        transform: scaleX(0);
+                                                    }
+                                                    .w--open .hamburger_9_line:first-child {
+                                                        transform: translateY(calc(var(--thickness) + var(--gap))) rotate(calc(var(--rotate) * -1deg));
+                                                    }
+                                                    .w--open .hamburger_9_line:last-child {
+                                                        transform: translateY(calc(var(--thickness) * -1 + var(--gap) * -1)) rotate(calc(var(--rotate) * 1deg));
+                                                    }
+                                                </style>
+                                            </div>
+                                            <div class="hamburger_9_line"></div>
+                                            <div class="hamburger_9_line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section data-theme="inherit" class="cs_hero_section">
+                    <div class="div-block-286">
+                        <div class="monitor_hero_container">
+                            <div class="div-block-288">
+                                <div class="div-block-293">
+                                    <div class="h2_heading wrap">Interactive frame,</div>
+                                    <div class="h2_heading wrap">try scroll and interact here</div>
+                                </div>
+                            </div>
+                            <div class="iframe-website w-embed w-iframe">
+                                <div class="iframe-website">
+                                    <iframe src="https://www.netfolie.com/" class="website"></iframe>
+                                </div>
+                            </div>
+                            <img
+                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp"
+                                loading="lazy"
+                                sizes="(max-width: 1450px) 100vw, 1450px"
+                                srcset="
+                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-500.webp   500w,
+                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-800.webp   800w,
+                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-1080.webp 1080w,
+                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp        1450w
+                                "
+                                alt=""
+                                class="frame_monitor_mockup"
+                            />
+                            <div class="div-block-287"><div class="website"></div></div>
+                        </div>
+                    </div>
+                    <div class="div-block-216">
+                        <div class="container-5">
+                            <div class="div-block-214">
+                                <div data-theme="invert" class="div-block-220"><h4 class="label-category">Just code</h4></div>
+                                <h1 class="cs_hero_heading">
+                                    Netfolie<br />
+                                    website
+                                </h1>
+                            </div>
+                            <div class="div-block-281">
+                                <div class="div-block-215">
+                                    <div class="div-block-175">
+                                        <div class="div-block-173">
+                                            <h4 class="label-title">Client</h4>
+                                            <svg height="100%" viewBox="0 0 4654.6 1638.6" fill="none" xmlns="http://www.w3.org/2000/svg" class="cs_client_logo">
+                                                <path
+                                                    d="M913.6,1489.4c0-26.7-9.9-54.5-50.7-54.5s-32.8,4.7-43.8,11.8l5.5,16c9.4-6.1,22.3-9.9,34.7-9.9,27.3,0,30.3,19.8,30.3,30.8v2.8c-51.5-.3-80.1,17.3-80.1,49.6s13.8,38.3,40.8,38.3,33.3-9.4,40.8-19.8h.8l1.9,16.8h22c-1.7-9.1-2.2-20.4-2.2-31.9v-50ZM888.8,1534c-3.9,11.3-14.9,22.3-32.2,22.3s-22.9-7.4-22.9-23.1c0-25.9,30-30.6,56.5-30v23.1h0c0,2.5-.6,5.2-1.4,7.7ZM1160.9,1434.9c-38.8,0-62.5,31.7-62.5,71.9s24.5,67.2,65.5,67.2,35.8-4.4,44.3-8.3l-4.1-17.3c-9.1,3.9-19.6,6.9-36.9,6.9s-45.2-13.5-45.7-46.3h93.6c.3-2.5.8-6.3.8-11.3,0-24.5-11.5-62.8-55-62.8ZM1192.6,1491.6h-70.8c1.9-16.8,12.7-39.4,37.2-39.4s33.9,24,33.6,39.4ZM1360.9,1466c-25.6-9.9-36.9-18.5-36.9-35.8s9.6-27.8,35-27.8,29.2,5.5,35.2,8.8l6.6-19.6c-8.3-4.7-22-9.1-41-9.1-36.1,0-60,21.5-60,50.4s18.7,41.9,49,52.6c25.1,9.6,35,19.6,35,36.9s-14.3,31.7-38.8,31.7-32.2-5.5-43-12.1l-6.1,20.1c9.9,6.6,29.5,11.8,47.4,11.8,43.8,0,65-24.8,65-53.4,0-27.2-16-42.4-47.4-54.5ZM1067.9,1375.7h-24.2v79.6h-.6c-6.1-10.7-19.8-20.4-40.2-20.4-32.5,0-60,27.3-59.8,71.6,0,40.5,24.8,67.7,57,67.7s38-11.3,45.4-26.2h.6l1.1,23.1h21.8c-.8-9.1-1.1-22.6-1.1-34.4v-161ZM1043.6,1515.3c0,3.9-.3,7.2-1.1,10.5-4.4,18.2-19.3,28.9-35.5,28.9-26.2,0-39.4-22.3-39.4-49.3s14.9-51.5,39.9-51.5,31.4,12.7,35,28.1c.8,3,1.1,7.2,1.1,10.2v23.1ZM181.7,1479.2c-5.8,23.1-11,43.8-14.9,64.2h-.6c-2.8-19.6-7.7-41.6-12.9-63.6l-22.6-94.2h-25.1l-24.8,93.6c-6.3,24-12.1,46-15.1,64.4h-.6c-3.3-17.9-8.3-41-13.8-64.2l-22-93.9H4.1l47.1,185.6h25.1l26.4-96.7c6.9-24,11-42.1,14.3-60.6h.6c2.5,18.7,6.3,36.9,12.1,60.6l23.4,96.7h25.1l52.6-185.6h-24.5l-24.6,93.7ZM296.8,1434.9c-38.8,0-62.5,31.7-62.5,71.9s24.5,67.2,65.5,67.2,35.8-4.4,44.3-8.3l-4.1-17.3c-9.1,3.9-19.6,6.9-36.9,6.9s-45.2-13.5-45.7-46.3h93.6c.3-2.5.8-6.3.8-11.3.1-24.5-11.5-62.8-55-62.8ZM257.7,1491.6c1.9-16.8,12.7-39.4,37.2-39.4s33.8,24,33.6,39.4h-70.8ZM780.7,347.4c-8,0-20,.6-36.1,1.9-16.1,1.3-28,1.9-36,1.9s-19.1-.6-34.5-1.9c-15.4-1.3-26.9-1.9-34.5-1.9s-12.7,7-12.7,20.8c0,54.3,2.1,136.2,6.2,245.7,4.1,109.5,6.2,191.6,6.2,246.3s-1.5,103.6-4.4,121.3c-7.6-8-15.8-17.5-24.6-28.4-199.6-262.4-347.9-460.1-444.8-593-9.2-12.4-15.7-18.6-19.5-18.6-8,0-18.9,1.3-32.8,3.9-16.4,3-27.5,4.7-33.4,5.1-15.5,1.3-37,2.1-64.3,2.5-10.5.4-15.6,3.7-15.1,10l.6,8.2c3.4,69,5.5,120.8,6.3,155.3,3.8,132.6,5.7,224.3,5.7,275.2s-2.2,116.7-6.5,209.9c-4.3,93.2-6.5,162.9-6.5,209.2s5.2,12.6,15.7,12.6,18.8-.6,33.7-1.9c14.9-1.2,26.1-1.9,33.6-1.9s18,.6,32.7,1.9,25.6,1.9,32.7,1.9,12.6-6.9,12.6-20.8c0-64.8-1-162.1-3.1-291.9-2.1-129.8-3.1-227.1-3.1-291.9s2.1-25.9,6.3-25.9c4.6,4.2,21.2,24.8,49.9,61.9,184.7,242.9,322.5,425.6,413.5,548.1,10.3,13.7,19.2,20.5,26.7,20.5s17.2-.6,31.2-1.9c14-1.2,24.4-1.9,31.2-1.9s15.9.6,28.6,1.9c12.7,1.3,22.3,1.9,28.6,1.9,10.6,0,15.9-6.9,15.9-20.8,0-45.9-.4-114.6-1.3-206.2s-1.4-160.3-1.4-206.2,1.7-122.1,5-219.8c3.3-97.7,5-170.7,5-219.1s-4.4-13.9-13.3-13.9ZM1207.1,1249.4c96.7,0,175.9-32.7,237.7-98,6.7-7.1,10.1-11.9,10.1-14.5s-7.4-17.3-22.1-45.6-22.6-42.8-23.6-43.7c-1.1-.8-3.3-1.3-6.6-1.3-6.7,5.4-13.5,10.8-20.2,16.2-55.5,42.5-116.5,63.8-182.9,63.8s-74.8-12.4-108.5-37.3c-35.3-26.1-55.7-57.7-61.2-94.7,242.3-18,372.5-30.3,390.6-37,26.9-10.5,40.4-31.4,40.4-62.6,0-80.9-25.9-149.6-77.6-206.1-53-58.2-119-87.3-198.1-87.3s-156.7,33.5-215.1,100.4c-55.5,64.4-83.3,140-83.3,226.7s29,175.1,87,233.4c58,58.3,135.9,87.6,233.4,87.6ZM1073,769.2c30.1-31.2,64.5-46.8,103.3-46.8s65.6,13.6,93.2,40.7c27.6,27.1,41.4,58.2,41.4,93.3s-12.2,9.1-36.6,12.4c-86.8,12.4-161.3,18.6-223.6,18.6s-22.7-4.4-22.7-13.3c-.1-38.7,14.9-73.7,45-104.9ZM451.8,1434.9c-21.5,0-36.9,9.6-45.4,24.5h-.6v-83.7h-24v161.1c0,11.8-.6,25.3-1.1,34.4h20.9l1.1-22h.8c9.9,17.6,25.3,25.1,44.6,25.1,29.7,0,59.8-23.7,59.8-71.3.4-40.6-23-68.1-56.1-68.1ZM443.3,1555c-17.6,0-31.7-11.6-36.4-28.4-.6-2.8-1.1-5.8-1.1-8.8v-24c0-3.9.8-7.2,1.4-9.9,5-18.5,20.4-29.7,36.9-29.7,25.9,0,39.7,22.9,39.7,49.6s-15.2,51.2-40.5,51.2ZM740.2,1385.5h0c0,0-33,89.9-33,89.9-8.3,23.4-14.9,43.8-19.6,62.5h-.8c-4.7-19.3-11-39.7-18.7-62.5l-31.7-89.8h-30.6l-12.9,185.6h22.9l5-79.6c1.7-27.8,3-58.9,3.6-82.1h.6c5.2,22,12.7,46,21.5,72.2l30,88.4h18.2l32.8-90.1c9.4-25.6,17.1-48.7,23.4-70.5h.8c-.3,23.1,1.4,54.3,2.8,80.1l4.7,81.5h23.4l-11.6-185.6h-30.8ZM1894.5,1194.5c.4-5.9,1.7-18.8,3.8-38.6,1.7-16,2.5-28.7,2.5-38s-2.5-11.4-7.6-11.4c-12.2,0-31,2.8-56.2,8.5-25.3,5.7-44.4,8.5-57.5,8.5-31.6,0-52.5-11-62.6-32.9-6.8-14.3-10.1-39.6-10.1-75.9v-94.3c0-54,1-95.9,3-125.9,1.7-24,4.2-36.1,7.6-36.1,16.9,0,42.4,1.2,76.5,3.5s59.6,3.5,76.5,3.5,17.7-4,17.7-12-.2-16-.6-29.1-.6-22.8-.6-29.1.7-13.8,2.2-24.9,2.2-19.3,2.2-24.3-3.6-7.6-10.7-7.6h-151.6c-11.4,0-17.1-6.1-17.1-18.2,0-18.4,1.3-46.1,4-83,2.7-36.9,4-64.5,4-83s-4.8-12.6-14.5-13.8c-75.4-13.3-115-20-118.8-20-11.8,0-17.7,15.3-17.7,46s.5,43.1,1.5,77.5c1,34.5,1.5,60.1,1.5,76.9s-9.6,25-28.8,25.8c-10,.4-20.2.6-30.7.6-12.1,2.1-18.8,8.2-20,18.3-1.7,13.5-2.5,26.3-2.5,38.5,0,32.4,4.4,49.7,13.2,51.8,15.1.4,30.4.6,46,.6,17.2,1.3,25.8,10.5,25.8,27.8,0,35.8-.8,89.7-2.5,161.5-1.7,71.9-2.5,125.7-2.5,161.5.3,89.4,49.6,134,147.8,134s128.4-8.1,163-24.3c6.3-2.9,10.3-5.8,12-8.7.8-1.5,1.4-6.1,1.8-13.7ZM3764.3,421.6c-17-14.8-37.3-22.2-60.8-22.2s-43.7,7.2-60.5,21.5c-18.1,15.2-27.1,34.4-27.1,57.6,0,51.9,29.2,77.9,87.6,77.9s86.4-26,86.4-77.9-8.6-42.1-25.6-56.9ZM3775.1,637.4c-8,0-20,1.1-35.9,3.2-15.9,2.1-27.8,3.2-35.9,3.2s-20-1-35.9-3.2c-15.9-2.1-27.6-3.2-35.2-3.2s-13.3,3.6-13.3,10.7c0,32.8,2.5,82.1,7.5,147.8s7.5,115,7.5,147.8-.8,73.4-2.2,131.7c-1.4,58.3-2.2,102-2.2,131.1s4.4,25.9,13.3,25.9h123.5c7.6,0,11.4-4.4,11.4-13.3,0-30.3-.6-76.1-1.9-137.4-1.3-61.3-1.9-107.3-1.9-138s2-82,6-147.5,6-114.4,6-146.9c0-7.9-3.6-11.9-10.8-11.9ZM1440.2,1571.2h24.2v-133.3h-24.2v133.3ZM4444.5,894.8c0-80.9-25.9-149.6-77.6-206.1-53-58.2-119-87.3-198.1-87.3s-156.7,33.5-215.1,100.4c-55.5,64.4-83.3,140-83.3,226.7s29,175.1,87,233.4,135.8,87.5,233.2,87.5,175.9-32.7,237.7-98c6.7-7.1,10.1-11.9,10.1-14.5s-7.4-17.3-22.1-45.6-22.6-42.8-23.6-43.7c-1.1-.8-3.3-1.3-6.6-1.3-6.7,5.4-13.5,10.8-20.2,16.2-55.5,42.5-116.5,63.8-182.9,63.8s-74.8-12.4-108.5-37.3c-35.3-26.1-55.7-57.7-61.2-94.7,242.3-18,372.5-30.3,390.6-37,27.2-10.4,40.6-31.3,40.6-62.5ZM4257.9,868.8c-86.8,12.4-161.3,18.6-223.6,18.6s-22.7-4.4-22.7-13.3c0-38.8,15-73.8,45.2-104.9s64.5-46.8,103.3-46.8,65.6,13.6,93.2,40.7c27.6,27.1,41.4,58.2,41.4,93.3-.2,5-12.4,9.1-36.8,12.4ZM4653.9,367.9c-.5,0-.8.2-1.1.6l-48.6,84.4c-.2.3-.4.6-.5.9-.1.3-.2.5-.4.8-.1-.3-.2-.5-.4-.8-.1-.3-.3-.6-.5-.9l-50.1-84.4c-.3-.4-.6-.6-1.1-.6h-.6v110.4h1.6v-106.3c0-.3,0-.5-.1-.8l49.9,84.2c.4.5.7.8,1.1.8h.5c.4,0,.7-.3,1.1-.8l48.3-84.1c-.1.3-.1.5-.1.7v106.2h1.6v-110.3h-.6ZM4445,369.7h41.8v108.6h1.9v-108.6h41.5v-1.7h-85.2v1.7ZM3314.4,1627.9s-57.3-225.3-345.4-229.1c0,0,57.8-136.1,61.3-204.2.1-2.4-.3-4.6-.9-6.7,146.7-71.7,247.7-222.3,247.7-396.6s-185-428.4-417.8-440.6c16.2-130.8,124.1-234,258.4-244.9,11.6,27.2,38.6,46.4,70.1,46.4s76.1-34.1,76.1-76.1S3229.8,0,3187.8,0s-59.7,20.2-70.8,48.5c-137,9.5-251.9,99.2-296.9,221.7-41.9-89.4-131.1-152.6-235.7-158.5-10-18.6-29.4-31.4-52-31.4-32.7,0-59.2,26.5-59.2,59.2s26.5,59.2,59.2,59.2,40.9-12.1,51.1-29.9c103.6,6.8,187.6,84.4,202.6,184.1-220.2,24.7-391.5,211.6-391.5,438.4s139.4,376.8,328.4,426.6c18.7,30.6,70.4,113,95.9,130,0,0-171-52.6-270.6,15.4s-194,153.4-194,153.4l516.9-121.5s-64.4-127.5-38.2-155.4c2.5-2.6,5.3-5,8.3-7.3,22.1-.3,43.9-2.2,65.1-5.6,14,8.6,26.2,25.2,33,53.2,19.1,78.6-7.1,127.4-7.1,127.4,0,0,34.7,151.9,238.9,202.8,72.3,18,111.3,25.5,131.7,27.6.3,0,.8,0,1.4,0,.7,0,1.2.2,1.8.3,2.9.2,5.4.4,7.4.4,2.5-.2,3.8-.6,3.8-.6l-2.8-10h-.1ZM2835.9,1093.4c-166.8,0-302.1-135.2-302.1-302.1s135.2-302.1,302.1-302.1,302.1,135.2,302.1,302.1-135.3,302.1-302.1,302.1ZM3489.5,347.4c-7.6,0-19.1.6-34.7,1.9-15.6,1.3-27.3,1.9-35.3,1.9s-18.9-.6-34-1.9c-15.1-1.3-26.5-1.9-34-1.9s-13.2,4.2-13.2,12.6c0,45.1,2.2,113.2,6.5,204.3,4.3,91.2,6.5,159.5,6.5,204.9s-.4,125.2-1.3,225.1c-.9,99.9-1.2,174.8-1.2,224.5s3.8,14.5,11.3,14.5h120.2c6.7,0,10.1-4.8,10.1-14.5,0-49.7-.8-124.5-2.5-224.5s-2.5-175-2.5-225.1c0-112.4,4.8-246.9,14.3-403.5l.7-8.2c.2-6.7-3.4-10.1-10.9-10.1ZM2966.3,701c0,33-26.8,59.8-59.8,59.8s-59.8-26.8-59.8-59.8,26.8-59.8,59.8-59.8,4.7.2,7,.4c-25.1-14.7-54.2-23.2-85.3-23.2-93.5,0-169.3,75.8-169.3,169.3s75.8,169.3,169.3,169.3,169.3-75.8,169.3-169.3-12.3-71.8-32.8-99.8c1.1,4.3,1.6,8.6,1.6,13.1ZM1651.1,1434.9c-12.7,0-21.5,3.3-29.5,9.4-5.5,4.1-10.7,9.9-14.9,17.3h-.6c-5.8-15.7-19.6-26.7-37.7-26.7s-34.4,11.8-41.9,24.5h-.8l-1.1-21.5h-21.2c.8,11,1.1,22.3,1.1,36.1v97.2h23.7v-80.4c0-4.1.6-8.3,1.9-11.8,3.9-12.1,14.9-24.2,30-24.2s27.8,15.4,27.8,36.6v79.9h23.7v-82.3c0-4.4.8-8.8,1.9-12.1,4.1-11.8,14.9-22,28.6-22,19.6,0,28.9,15.4,28.9,41v75.5h23.7v-78.5c.2-46.4-26-58-43.6-58ZM1452.3,1385.3c-8.8,0-15.1,6.6-15.1,15.1s6.1,14.9,14.6,14.9,15.7-6.6,15.4-14.9c0-8.5-5.8-15.1-14.9-15.1ZM1804,1434.9c-21.8,0-37.5,9.6-47.4,25.9h-.6l-1.1-22.9h-21.8c.6,12.7,1.1,26.4,1.1,43.5v144.3h24v-72.4h.6c8,13.2,23.4,20.9,41,20.9,31.4,0,60.6-23.7,60.6-71.6,0-40.4-24.2-67.7-56.4-67.7ZM1795.7,1555.2c-17.3,0-31.9-11.6-36.4-28.4-.6-3-1.1-6.3-1.1-9.9v-22.9c0-3.3.8-6.9,1.7-9.9,4.7-18.2,20.1-30,36.6-30,25.6,0,39.7,22.9,39.7,49.6,0,30.6-14.9,51.5-40.5,51.5ZM1891,1571.2h24.2v-195.5h-24.2v195.5ZM2295.2,316.4c-1.7-4.6-4.6-6.9-8.8-6.9-43.8,0-86.2,8-127.1,24-45.5,17.7-80.1,42.1-103.7,73.3-26.5,34.5-39.8,89.1-39.8,163.6s.6,38.8,1.9,65.7c-53.7,2.9-80.5,8.8-80.5,17.6s.4,23,1.3,41.3c.8,18.3,1.3,32,1.3,41.3,0,14.3.6,22,1.9,23.3,1.7,2.5,16.5,3.6,44.4,3.2,25.8-.4,38.7,5.1,38.7,16.4v434.8c0,13.1,5.5,19.6,16.4,19.6h115.3c8.4,0,12.6-5.7,12.6-17.1,0-29.5-1.1-74.1-3.2-134-2.1-59.8-3.2-104.5-3.2-134v-189c14.4,0,36.6.8,66.6,2.2s52.4,2.2,67.2,2.2,12.7-4,12.7-12-.4-28.7-1.3-52-1.2-40.8-1.2-52.6-5.1-11.3-15.2-11.3c-15.2,0-37.8-.4-67.8-1.2s-52-1.3-65.9-1.3c0-91,10.3-147.7,31-170,12.7-13.5,31-21.9,55.1-25.3,20.3-1.7,40.8-3.6,61.4-5.7,7.6-.8,11.4-3.8,11.4-8.8s-3.5-19.2-10.4-53.9c-6.9-34.7-10.7-52.6-11.1-53.4ZM2008.8,1434.9c-38.8,0-62.5,31.7-62.5,71.9s24.5,67.2,65.5,67.2,35.8-4.4,44.3-8.3l-4.1-17.3c-9.1,3.9-19.6,6.9-36.9,6.9s-45.2-13.5-45.7-46.3h93.6c.3-2.5.8-6.3.8-11.3,0-24.5-11.5-62.8-55-62.8ZM2040.5,1491.6h-70.8c1.9-16.8,12.7-39.4,37.2-39.4s33.9,24,33.6,39.4Z"
+                                                    fill="currentColor"
+                                                    class="path"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                        <div class="div-block-173-1">
+                                            <h4 class="label-title">Budget</h4>
+                                            <div class="paragraph_large bold no_wrap">$ 5k</div>
+                                        </div>
+                                        <div class="div-block-173-2">
+                                            <h4 class="label-title">Duration</h4>
+                                            <div class="paragraph_large bold no_wrap">4 weeks</div>
+                                        </div>
+                                    </div>
+                                    <div class="div-block-217">
+                                        <div class="div-block-219"><h4 class="label-title">Softwares</h4></div>
+                                        <div class="div-block-218">
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d515d8cece2ee4f731_figma-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d515d8cece2ee4f731_figma-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d515d8cece2ee4f731_figma-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d515d8cece2ee4f731_figma-icon-mika.webp       826w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika.webp       842w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d580816d996a48948d_gsap-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d580816d996a48948d_gsap-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d580816d996a48948d_gsap-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d580816d996a48948d_gsap-icon-mika.webp       842w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5c46f3830410a1cc6_chat-gpt-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5c46f3830410a1cc6_chat-gpt-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5c46f3830410a1cc6_chat-gpt-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5c46f3830410a1cc6_chat-gpt-icon-mika.webp       842w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika.webp       842w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika.webp       842w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                            <img
+                                                src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika.webp"
+                                                loading="lazy"
+                                                sizes="(max-width: 767px) 79vw, 70vw"
+                                                srcset="
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika-p-500.webp 500w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika-p-800.webp 800w,
+                                                    https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika.webp       842w
+                                                "
+                                                alt=""
+                                                class="software_icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-block-253"></div>
+                    </div>
+                </section>
+                <section data-theme="dark">
+                    <div class="w-layout-blockcontainer container-3 w-container">
+                        <div class="div-block-238">
+                            <div class="div-block-226">
+                                <h2 class="h2_project_section">Overview</h2>
+                                <div class="div-block-225">
+                                    <div
+                                        class="lottie-animation-2"
+                                        data-w-id="dafcc631-0c77-0a9b-17ae-7830a9acc305"
+                                        data-animation-type="lottie"
+                                        data-src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745d05479fe9bfa76d1161b_globe_wireframe_mika_website_design.json"
+                                        data-loop="1"
+                                        data-direction="1"
+                                        data-autoplay="1"
+                                        data-is-ix2-target="0"
+                                        data-renderer="svg"
+                                        data-default-duration="0"
+                                        data-duration="1"
+                                    ></div>
+                                    <a href="https://www.netfolie.com/" target="_blank" class="link-2">Visit the website</a>
+                                </div>
+                            </div>
+                            <div class="div-block-267">
+                                <div class="div-block-256">
+                                    <p class="small_paragraph--tw1">
+                                        Netfolie, a dynamic digital agency specializing in top-tier web solutions, aimed to launch a new website that showcased their commitment to excellence and innovation. They had a meticulously crafted
+                                        design and sought a developer capable of bringing it to life with intricate animations, interactive elements, and scroll-based motion effects. The goal was to develop a high-end website, polished down
+                                        to the finest detail.<br />
+                                        <br />
+                                        Dennis Markessinis, Founder and President of Netfolie, discovered me on Upwork. They were looking for a developer who could precisely execute their vision. To ensure they partnered with the right
+                                        professional, they initiated a trial task: develop the first section of the website. Satisfied with the results, they commissioned me to develop the entire site.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-theme="inherit" class="section">
+                    <div class="w-layout-blockcontainer container-3 w-container">
+                        <div class="container-4">
+                            <div class="div-block-234">
+                                <div class="div-block-269">
+                                    <div class="div-block-270"></div>
+                                    <div class="div-block-244"></div>
+                                    <h2 class="h2_project_section">process</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-243">
+                                <div class="div-block-240">
+                                    <div class="div-block-233">
+                                        <h3 class="h3_heading wrap">
+                                            <span class="text-span-2">phase 1</span><br />
+                                            Trial Task and Project Kickoff
+                                        </h3>
+                                        <div class="div-block-259">
+                                            <p class="small_paragraph--tw1">To ensure I was the right fit, Netfolie presented a trial task: develop the first section of their website with precise animations and interactivity.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Execution of Initial Section</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Developed the initial section with pixel-perfect accuracy and smooth scroll-based animations.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Demonstration of Skills</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Showcased my ability to faithfully translate their design into a functional webpage.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Securing the Full Project</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Exceeded their expectations in the trial, leading to the commission of the entire project.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-block-266">
+                                <div class="div-block-265">
+                                    <div class="case-study-video w-embed">
+                                        <video class="case-study-video" autoplay loop muted playsinline>
+                                            <source src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2%2F6745d92af6b1a02c53534c32_netfolie_header_section_recording_mika_unbearable-transcode.mp4" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <img
+                                        src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp"
+                                        loading="lazy"
+                                        sizes="100vw"
+                                        srcset="
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-500.webp   500w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-800.webp   800w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-1080.webp 1080w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp        1450w
+                                        "
+                                        alt=""
+                                        class="frame_monitor_mockup"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-243">
+                                <div class="div-block-240">
+                                    <div class="div-block-233">
+                                        <h3 class="h3_heading wrap">
+                                            <span class="text-span-2">phase 2</span><br />
+                                            Developing <br />
+                                            the 3D Carousel
+                                        </h3>
+                                        <div class="div-block-259"><p class="small_paragraph--tw1">One of the most significant challenges was creating a seamless 3D carousel that enhanced user engagement.</p></div>
+                                    </div>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Foundation with Swiper Studio</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Utilized the Panorama Carousel from Swiper Studio as a starting point.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Customization with JavaScript</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Extensively modified it using custom JavaScript to enable rotation via page scrolling and mouse navigation.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Dedicated Development Time</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Invested an entire week to perfect this feature, resulting in a standout interactive element.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-block-266">
+                                <div class="div-block-265">
+                                    <div class="case-study-video w-embed">
+                                        <video class="case-study-video" autoplay loop muted playsinline>
+                                            <source src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2%2F6745fd8d9d79562294007411_netfolie_3d_carousel_section_recording_mika_unbearable-transcode.mp4" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <img
+                                        src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp"
+                                        loading="lazy"
+                                        sizes="100vw"
+                                        srcset="
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-500.webp   500w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-800.webp   800w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-1080.webp 1080w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp        1450w
+                                        "
+                                        alt=""
+                                        class="frame_monitor_mockup"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-243">
+                                <div class="div-block-240">
+                                    <div class="div-block-233">
+                                        <h3 class="h3_heading wrap">
+                                            <span class="text-span-2">phase 3</span><br />
+                                            the Footer Design
+                                        </h3>
+                                        <div class="div-block-259"><p class="small_paragraph--tw1">The unique footer required a creative solution to achieve the desired interactive effect.</p></div>
+                                    </div>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Designing the Flexing Arc Effect</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Created a section border that flexes into an arc as users scroll upward.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Implementing SVG Clip Mask</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Used a responsive SVG clip mask to realize the flexing arc effect.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Ensuring Cross-Device Compatibility</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Ensured the effect worked seamlessly across all devices and screen sizes.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-block-266">
+                                <div class="div-block-265">
+                                    <div class="case-study-video w-embed">
+                                        <video class="case-study-video" autoplay loop muted playsinline>
+                                            <source src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2%2F6746e23023e056c76f0d7c9d_netfolie_footer_section_recording_mika_unbearable-transcode.mp4" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <img
+                                        src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp"
+                                        loading="lazy"
+                                        sizes="100vw"
+                                        srcset="
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-500.webp   500w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-800.webp   800w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-1080.webp 1080w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp        1450w
+                                        "
+                                        alt=""
+                                        class="frame_monitor_mockup"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-243">
+                                <div class="div-block-240">
+                                    <div class="div-block-233">
+                                        <h3 class="h3_heading wrap">
+                                            <span class="text-span-2">phase 4</span><br />
+                                            the Navigation Menu
+                                        </h3>
+                                        <div class="div-block-259"><p class="small_paragraph--tw1">To maintain design consistency, I applied similar techniques used in the footer to the navigation menu.</p></div>
+                                    </div>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Developing an Expanding Menu</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Created a navigation menu that expands dynamically using the same SVG clip mask technology.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Crafting Smooth Animations</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Designed smooth transitions and animations for enhanced user interaction.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Enhancing User Experience</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Provided an engaging and intuitive way for users to navigate the site.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-block-266">
+                                <div class="div-block-265">
+                                    <div class="case-study-video w-embed">
+                                        <video class="case-study-video" autoplay loop muted playsinline>
+                                            <source src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2%2F6746e4a6706b2fbb2102f2ac_netfolie_nav_menu_section_recording_mika_unbearable-transcode.mp4" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <img
+                                        src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp"
+                                        loading="lazy"
+                                        sizes="100vw"
+                                        srcset="
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-500.webp   500w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-800.webp   800w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-1080.webp 1080w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp        1450w
+                                        "
+                                        alt=""
+                                        class="frame_monitor_mockup"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-243">
+                                <div class="div-block-240">
+                                    <div class="div-block-233">
+                                        <h3 class="h3_heading wrap">
+                                            <span class="text-span-2">phase 5</span><br />
+                                            Project Page Templates<br />
+                                            and CMS Integration
+                                        </h3>
+                                        <div class="div-block-259"><p class="small_paragraph--tw1">Empowering Netfolie to manage their content was essential for ongoing site updates.</p></div>
+                                    </div>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Developing an Expanding Menu</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Created a navigation menu that expands dynamically using the same SVG clip mask technology.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Crafting Smooth Animations</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Designed smooth transitions and animations for enhanced user interaction.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Enhancing User Experience</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Provided an engaging and intuitive way for users to navigate the site.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-block-266">
+                                <div class="div-block-265">
+                                    <div class="case-study-video w-embed">
+                                        <video class="case-study-video" autoplay loop muted playsinline>
+                                            <source src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2%2F6746ed7733aa06c0785083f9_netfolie_project_template_page_recording_mika_unbearable-transcode.mp4" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <img
+                                        src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp"
+                                        loading="lazy"
+                                        sizes="100vw"
+                                        srcset="
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-500.webp   500w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-800.webp   800w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup-p-1080.webp 1080w,
+                                            https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/6745e66e2db240c02c207d50_frame_monitor_video_mockup.webp        1450w
+                                        "
+                                        alt=""
+                                        class="frame_monitor_mockup"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-251">
+                                <div class="div-block-245">
+                                    <h3 class="h3_heading wrap">Outcome<br /></h3>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Realization of Netfolie&#x27;s Vision</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Accurately reflected their meticulous design with high-end functionality.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Standout User Engagement</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Incorporated advanced animations and interactive features that set the site apart from competitors.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Successful Ongoing Collaboration</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Led to continued partnership, highlighting the project&#x27;s success.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-251">
+                                <div class="div-block-245">
+                                    <h3 class="h3_heading wrap">
+                                        Key <br />
+                                        Takeaways<br />
+                                    </h3>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-230">
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Innovative Problem-Solving</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Overcame complex challenges with creative technical solutions.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Advanced Technical Expertise</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Demonstrated skills in JavaScript, SVG manipulation, and responsive design.</p></div>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div data-theme="inherit" class="div-block-235">
+                                            <div class="div-block-228"><h4 class="small_paragraph--tw1">Effective Communication</h4></div>
+                                            <div class="div-block-255"><p class="small_paragraph--tw1">Maintained clear communication, ensuring alignment and timely delivery.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="inherit" class="div-block-241">
+                            <div class="div-block-251">
+                                <div class="div-block-245">
+                                    <h3 class="h3_heading wrap">Conclusion<br /></h3>
+                                </div>
+                                <div class="div-block-267">
+                                    <div class="div-block-256">
+                                        <p class="small_paragraph--tw1">
+                                            This project highlights the impact of integrating meticulous design with advanced development techniques. By addressing complex challenges and focusing on detail, the Netfolie website exemplifies
+                                            top-tier web development. The successful execution fostered a strong, ongoing partnership with Netfolie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" data-theme="dark" data-w-id="1c2cbc98-311a-06f4-1956-f4ba6d3fc5fe" class="contact_section">
+                    <div class="div-block-61">
+                        <div class="div-block-135">
+                            <div class="code-embed-15 w-embed w-script">
+                                <!-- Calendly inline widget begin -->
+                                <style>
+                                    @media screen and (max-width: 991px) {
+                                        /* Adjust 600px to your mobile breakpoint */
+                                        .calendly-inline-widget {
+                                            height: 100vh !important;
+                                            overflow-y: show !important;
+                                        }
+                                    }
+                                </style>
+                                <div class="calendly-inline-widget" data-url="https://calendly.com/michelangelo-giorgini/30min" style="min-width: 320px; height: 700px;"></div>
+                                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                                <!-- Calendly inline widget end -->
+                            </div>
+                        </div>
+                        <div class="div-block-134">
+                            <div class="div-block-209">
+                                <div class="div-block-133 left">
+                                    <div class="div-block-136"><h2 class="h2_heading">Let&#x27;s</h2></div>
+                                </div>
+                                <div class="div-block-133 right"><h2 class="h2_heading">Talk</h2></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-theme="inhert">
+                    <div class="w-layout-blockcontainer container-3 w-container">
+                        <div class="div-block-238 invert">
+                            <div class="div-block-268">
+                                <div class="div-block-294">
+                                    <h2 class="h2_heading">
+                                        Next <br />
+                                        project
+                                    </h2>
+                                </div>
+                                <div class="div-block-262">
+                                    <div class="div-block-261">
+                                        <div class="div-block-263">
+                                            <h3 class="h4_heading">
+                                                <span>Steady Growth Website </span>
+                                                <span class="span-3">
+                                                    <div class="div-block-221">
+                                                        <div data-theme="invert" class="div-block-220"><h4 class="label-category">design and code</h4></div>
+                                                    </div>
+                                                </span>
+                                            </h3>
+                                        </div>
+                                        <a href="steady-growth-case-study.html" class="cta w-inline-block">
+                                            <div class="button_circle_wrapper">
+                                                <div class="button4_circle">
+                                                    <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                        <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="button4_text">Learn more</div>
+                                            <div class="button4_bg"></div>
+                                        </a>
+                                    </div>
+                                    <div class="div-block-250">
+                                        <div class="div-block-175">
+                                            <div class="div-block-173">
+                                                <h4 class="label-title">Client</h4>
+                                                <svg height="100%" viewBox="0 0 300.9 83.8" fill="none" xmlns="http://www.w3.org/2000/svg" class="cs_client_logo">
+                                                    <path
+                                                        d="M53.9,67.9h-27.9C11.6,67.9,0,56.3,0,41.9c0,0,0,0,0,0,0,23.1,18.8,41.9,41.9,41.9h12c4.4,0,8-3.6,8-8s-3.6-8-8-8ZM0,41.9s0,0,0,0c0-.5,0-.9,0-1.3,0,.4,0,.9,0,1.3ZM26,15.9h50.3V0h-34.3C19.2,0,.8,18,0,40.6.7,26.8,12.1,15.9,26,15.9ZM184.6,33.1h-16.5v-2.2h16.5v-5.8h-16.5v-2.2h16.5v-6.9h-25.4v24h25.4v-6.9ZM196.5,35.7h10.2l1.7,4.3h9.8l-10-24h-13.2l-10,24h9.8l1.6-4.3ZM201.7,22.1l2.8,7.4h-5.6l2.8-7.4ZM258.2,40h8.9v-7.9l12.2-16.1h-10.3l-6.4,8.9-6.4-8.9h-10.3l12.2,16.1v7.9ZM248,28s0,0,0,0,0,0,0,0h0ZM248,28c0-8.2-5.5-12-11.3-12h-17.9v24h17.9c5.8,0,11.3-3.8,11.3-12ZM227.9,32.4v-8.9h6.2c1.9,0,5.1,0,5.1,4.5h0c0,4.5-3.2,4.5-5.1,4.5h-6.2ZM223.7,60.9l-5.2-17h-10.6l-5.2,17-5-17h-9.6l7.9,24h13.2l3.9-13.8,4,13.8h13.2l7.9-24h-9.6l-5,17ZM173.8,43.6c-10.6,0-15.1,4-15.1,12.3s4.6,12.4,15.1,12.4,15.1-4.1,15.1-12.4-4.5-12.3-15.1-12.3ZM173.8,60.7c-5.2,0-6.2-2.3-6.2-4.8s.9-4.8,6.2-4.8,6.2,2.3,6.2,4.8-.9,4.8-6.2,4.8ZM238.8,51.5h10.3v16.5h8.9v-16.5h10.3v-7.5h-29.5v7.5ZM292,43.9v8.2h-14.1v-8.2h-8.9v24h8.9v-8.2h14.1v8.2h8.9v-24h-8.9ZM158.2,53.1c0-5.4-3.7-9.2-9.2-9.2h-18.9v24h8.9v-5.6h5.2l3.3,5.6h10.6l-4.3-6.9c2.7-1.5,4.3-4.4,4.3-7.9ZM147.3,54.8h-8.2v-3.3h8.2c.9,0,2,0,2,1.7s-1.1,1.6-2,1.6ZM113.4,51.1c3.8,0,5.5,1.1,5.9,2.4h9.1c-.4-6.6-5.1-9.9-15-9.9s-15.1,4-15.1,12.3,5.2,12.4,14.1,12.4,8.2-1.4,10.2-3.8l.6,3.5h5.2v-13.1h-15.6v4.8h6.5c-.3,1.6-2.4,2.1-5.9,2.1-5.2,0-6.2-2.6-6.2-5.5s.9-5.1,6.2-5.1ZM113.6,24.7c-5.2-.2-6.1-.2-6.1-1.1s.7-1.1,5-1.1,6.4.3,6.4,1.5h8.9c0-6.1-5.2-8.4-14.7-8.4s-14.7,2.3-14.7,7.6,4.2,7.4,15,7.7c5.6.2,6.4.3,6.4,1.3s-.8,1.2-6.1,1.2-6.8-.8-6.8-2h0s-8.9,0-8.9,0c0,7.1,5.5,8.8,15.3,8.8s15.4-1.7,15.4-8.3-5.9-6.9-15.4-7.3ZM53.9,34h-27.9c-4.4,0-8,3.6-8,8s3.6,8,8,8h27.9c10.8,0,20,6.6,24,15.9.6-2.2,1-4.5,1-6.9,0-13.8-11.2-24.9-24.9-24.9ZM128.9,23.5h10.3v16.5h8.9v-16.5h10.3v-7.5h-29.5v7.5Z"
+                                                        fill="currentColor"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <div class="div-block-173-1">
+                                                <h4 class="label-title">Budget</h4>
+                                                <div class="paragraph_large bold no_wrap">$ 4.5k</div>
+                                            </div>
+                                            <div class="div-block-173-2">
+                                                <h4 class="label-title">Duration</h4>
+                                                <div class="paragraph_large bold no_wrap">4 weeks</div>
+                                            </div>
+                                        </div>
+                                        <div class="div-block-264">
+                                            <div class="div-block-219"><h4 class="label-title">Softwares</h4></div>
+                                            <div class="div-block-218">
+                                                <img
+                                                    src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d58d73805d53291c75_xd-icon-mika.webp"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 845.4545288085938px, 69vw"
+                                                    srcset="
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d58d73805d53291c75_xd-icon-mika-p-500.webp 500w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d58d73805d53291c75_xd-icon-mika-p-800.webp 800w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d58d73805d53291c75_xd-icon-mika.webp       840w
+                                                    "
+                                                    alt=""
+                                                    class="software_icon"
+                                                />
+                                                <img
+                                                    src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika.webp"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 847.4573364257812px, 69vw"
+                                                    srcset="
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika-p-500.webp 500w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika-p-800.webp 800w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5ea516d7e1bcda267_webflow-icon-mika.webp       842w
+                                                    "
+                                                    alt=""
+                                                    class="software_icon"
+                                                />
+                                                <img
+                                                    src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika.webp"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 847.4573364257812px, 69vw"
+                                                    srcset="
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika-p-500.webp 500w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika-p-800.webp 800w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d56760980fd3997b0e_after_effect-icon-mika.webp       842w
+                                                    "
+                                                    alt=""
+                                                    class="software_icon"
+                                                />
+                                                <img
+                                                    src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika.webp"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 847.4573364257812px, 69vw"
+                                                    srcset="
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika-p-500.webp 500w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika-p-800.webp 800w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d5b2b58ba1c56f4373_photoshop-icon-mika.webp       842w
+                                                    "
+                                                    alt=""
+                                                    class="software_icon"
+                                                />
+                                                <img
+                                                    src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika.webp"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 479px) 79vw, (max-width: 767px) 100vw, (max-width: 991px) 847.4573364257812px, 69vw"
+                                                    srcset="
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika-p-500.webp 500w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika-p-800.webp 800w,
+                                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/674068d57617215bfa598172_illustrator-icon-mika.webp       842w
+                                                    "
+                                                    alt=""
+                                                    class="software_icon"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="steady-growth-case-study.html" class="image-9 w-inline-block">
+                                <img
+                                    src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200.webp"
+                                    loading="lazy"
+                                    sizes="100vw"
+                                    srcset="
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200-p-500.webp   500w,
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200-p-800.webp   800w,
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200-p-1080.webp 1080w,
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200-p-1600.webp 1600w,
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200-p-2000.webp 2000w,
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200-p-2600.webp 2600w,
+                                        https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/672f9074a26071b5124b5201_66446400f155b92095fddd2f_steady-growth-website-mika-p-3200.webp        3200w
+                                    "
+                                    alt=""
+                                    class="image-16"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section data-theme="dark" class="section-2">
+                    <div class="w-layout-blockcontainer u-container w-container">
+                        <div class="div-block-301">
+                            <svg width="100%" height="100%" viewBox="0 0 181 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="unbearable_logo">
+                                <path
+                                    d="M180.3,8.7c0-1.8-.8-3.3-2.4-4.3-1.6-1.1-3.8-1.6-6.5-1.6s-4.9.6-6.7,1.7c-1.7,1.1-2.6,2.6-2.6,4.5v.3c0,2.1.9,3.6,2.7,4.6,1.8,1,4.1,1.5,7,1.5s3.6-.2,5-.5c1.3-.3,2.3-.8,2.7-1.5l-2.8-2.2c-.6.5-1.4.8-2.2,1-.8.2-1.7.3-2.8.3-1.6,0-2.9-.3-3.7-.8-.6-.3-.9-.8-1.1-1.3h13.4v-1.6ZM166.9,7.7c.2-.5.5-.9,1-1.2.8-.6,1.8-.9,3.1-.9,1.8,0,3,.3,3.6.8.4.3.6.8.7,1.3h-8.5ZM154.8,15h4.8V.4h-4.8v14.6ZM150.2,4.5c-1.4-1.1-3.2-1.7-5.5-1.7s-2.7.1-3.7.4c-1,.3-1.8.7-2.4,1.2V.4h-4.8v14.6h4.7v-1.7h0c.5.6,1.3,1,2.4,1.3,1.1.3,2.3.5,3.6.5,2.4,0,4.3-.6,5.7-1.7,1.4-1.1,2.1-2.6,2.1-4.4v-.3c0-1.8-.7-3.2-2.1-4.3ZM147.4,9.3c0,.8-.4,1.5-1.1,2-.7.5-1.7.8-3.1.8s-2.1-.2-2.9-.5c-.8-.3-1.4-.8-1.7-1.3v-2.5c.3-.5.9-.9,1.7-1.2.8-.3,1.8-.5,2.9-.5s2.4.3,3.1.8c.7.5,1.1,1.2,1.1,1.9v.5ZM130.7,12.7v-6.4c0-1.2-.7-2.1-2.2-2.7-1.5-.6-3.5-.9-6-.9s-4.6.4-6.2,1.1c-1.6.7-2.4,1.7-2.4,2.9v.2h4.8v-.2c0-.3.3-.6.9-.8.6-.2,1.5-.3,2.7-.3s2.2,0,2.7.2.9.3.9.6v1.1h-4.1c-2.6,0-4.7.4-6.3,1.1-1.6.7-2.5,1.7-2.5,3.1s.6,2.1,1.9,2.7c1.3.6,2.8.9,4.6.9s3-.2,4.2-.5c1.2-.3,2-.8,2.3-1.2,0,.3,0,.5.2.8,0,.3.2.5.3.7h4.7v-.2c-.2-.2-.4-.6-.5-.9-.1-.4-.2-.8-.2-1.2ZM125.9,10.7c0,.5-.5.9-1.4,1.3-1,.3-2,.5-3.3.5s-2,0-2.5-.3c-.5-.2-.8-.5-.8-.8s.4-.8,1.2-1.1c.8-.3,1.9-.4,3.3-.4h3.6v.8ZM110.9,2.7c-.9,0-1.8.2-2.5.6-.8.4-1.3.9-1.7,1.4h0v-1.8h-4.8v12h4.8v-6.6c.3-.5.9-1,1.6-1.3.7-.4,1.5-.5,2.5-.5s.5,0,.7,0c.2,0,.5,0,.8,0v-3.8c-.2,0-.4,0-.6,0-.2,0-.5,0-.7,0ZM98.8,12.7v-6.4c0-1.2-.7-2.1-2.2-2.7-1.5-.6-3.5-.9-6-.9s-4.6.4-6.2,1.1c-1.6.7-2.4,1.7-2.4,2.9v.2h4.8v-.2c0-.3.3-.6.9-.8.6-.2,1.5-.3,2.7-.3s2.2,0,2.7.2c.6.1.9.3.9.6v1.1h-4.1c-2.6,0-4.7.4-6.3,1.1-1.6.7-2.5,1.7-2.5,3.1s.6,2.1,1.9,2.7c1.3.6,2.8.9,4.6.9s3-.2,4.2-.5c1.2-.3,2-.8,2.3-1.2,0,.3,0,.5.2.8,0,.3.2.5.3.7h4.7v-.2c-.2-.2-.4-.6-.5-.9-.1-.4-.2-.8-.2-1.2ZM94,10.7c0,.5-.5.9-1.4,1.3-1,.3-2,.5-3.3.5s-2,0-2.5-.3c-.5-.2-.8-.5-.8-.8s.4-.8,1.2-1.1c.8-.3,1.9-.4,3.3-.4h3.6v.8ZM77.4,4.3c-1.6-1.1-3.8-1.6-6.5-1.6s-4.9.6-6.7,1.7c-1.7,1.1-2.6,2.6-2.6,4.5v.3c0,2.1.9,3.6,2.7,4.6,1.8,1,4.1,1.5,7,1.5s3.6-.2,5-.5c1.3-.3,2.3-.8,2.7-1.5l-2.8-2.2c-.6.5-1.4.8-2.2,1s-1.7.3-2.8.3c-1.6,0-2.9-.3-3.7-.8-.6-.3-.9-.8-1.1-1.3h13.4v-1.6c0-1.8-.8-3.3-2.4-4.3ZM66.4,7.7c.2-.5.5-.9,1-1.2.8-.6,1.8-.9,3.1-.9,1.8,0,3.1.3,3.6.8.4.3.6.8.7,1.3h-8.5ZM57.6,4.5c-1.4-1.1-3.2-1.7-5.5-1.7s-2.7.1-3.7.4c-1,.3-1.8.7-2.4,1.2V.4h-4.8v14.6h4.7v-1.7h0c.5.6,1.3,1,2.4,1.3,1.1.3,2.3.5,3.6.5,2.4,0,4.3-.6,5.7-1.7,1.4-1.1,2.1-2.6,2.1-4.4v-.3c0-1.8-.7-3.2-2.1-4.3ZM54.7,9.3c0,.8-.4,1.5-1.1,2-.7.5-1.7.8-3.1.8s-2.1-.2-2.9-.5c-.8-.3-1.4-.8-1.7-1.3v-2.5c.3-.5.9-.9,1.7-1.2.8-.3,1.8-.5,2.9-.5s2.4.3,3.1.8c.7.5,1.1,1.2,1.1,1.9v.5ZM36.3,4.1c-1.3-.8-2.9-1.2-4.9-1.2s-2.4.2-3.4.5c-1,.3-1.8.9-2.5,1.6h0v-1.9h-4.8v12h4.8v-6.8c.4-.6,1-1.1,1.8-1.5.7-.4,1.6-.6,2.5-.6s1.9.2,2.6.6c.6.4.9,1.1.9,2.1v6.3h4.8v-6.2c0-2.3-.6-3.9-1.9-4.8ZM12.9,9.7c-.5.7-1,1.2-1.8,1.6-.7.4-1.5.6-2.5.6s-1.9-.2-2.5-.7c-.6-.4-1-1.3-1-2.4V3H.4v6.1c0,2.2.6,3.7,1.8,4.6,1.2.9,2.7,1.4,4.4,1.4s2.7-.1,3.8-.4c1-.3,1.9-.9,2.6-1.7v1.9h4.8V3h-4.8v6.7Z"
+                                    fill="currentColor"
+                                ></path>
+                            </svg>
+                            <div class="div-block-302">
+                                <div class="text-block-3">a service by</div>
+                                <div class="code-embed-17 w-embed">
+                                    <?xml version="1.0" encoding="UTF-8"?>
+                                    <svg id="Livello_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1329.1 520.1">
+                                        <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+                                        <defs>
+                                            <style>
+                                                .st0 {
+                                                    fill: currentColor;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <path class="st0" d="M0,0h0C63.8,0,115.6,51.8,115.6,115.6v404.5H0V0H0Z" />
+                                        <path class="st0" d="M288.9,0h0v520.1h-115.6V115.6C173.4,51.8,225.2,0,288.9,0Z" />
+                                        <rect class="st0" x="404.5" y="0" width="115.6" height="520.1" />
+                                        <rect class="st0" x="635.7" y="0" width="115.6" height="520.1" />
+                                        <path class="st0" d="M1155.8,0h0v404.5c0,63.8-51.8,115.6-115.6,115.6h0V115.6C1040.2,51.8,1092,0,1155.8,0Z" />
+                                        <path class="st0" d="M1213.6,0h0C1277.3,0,1329.1,51.8,1329.1,115.6v404.5h0c-63.8,0-115.6-51.8-115.6-115.6V0h0Z" />
+                                        <path class="st0" d="M809,260h0c63.8,0,115.6,51.8,115.6,115.6v144.5h0c-63.8,0-115.6-51.8-115.6-115.6v-144.5h0Z" />
+                                        <path class="st0" d="M924.6,0h0v144.5c0,63.8-51.8,115.6-115.6,115.6h0V115.6C809,51.8,860.8,0,924.6,0Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-theme="light" class="div-block-303">
+                        <div class="text-block-4">
+                            © 2025 Unbearable Design. All rights reserved. <a href="privacy-policy.html" target="_blank" class="link-4">Privacy Policy</a> |
+                            <a href="#" fs-consent-element="open-preferences" class="link-4">Cookie preferences</a>
+                        </div>
+                    </div>
+                    <div data-theme="light" fs-consent-element="internal-component" fs-consent-styledCategories="true" class="fs-consent_component">
+                        <div fs-consent-duration="400" fs-consent-element="banner" fs-consent-easing="ease" fs-consent-animation="slide-up" class="fs-consent_banner">
+                            <div class="fs-consent_banner_wrapper">
+                                <p class="fs-consent_banner_paragraph">
+                                    By clicking <strong fs-consent-element="internal-banner-text">&quot;Accept&quot;</strong>, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in
+                                    our marketing efforts. View our <a href="privacy-policy.html" target="_blank" class="link-3">Privacy Policy</a> for more information.
+                                </p>
+                                <div fs-consent-element="internal-buttons-wrapper" class="fs-consent_banner_buttons">
+                                    <div data-theme="dark" class="div-block-304">
+                                        <a fs-consent-element="deny" href="#" class="cta w-inline-block">
+                                            <div class="button_circle_wrapper">
+                                                <div class="button4_circle">
+                                                    <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                        <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="button4_text">Reject</div>
+                                            <div class="button4_bg"></div>
+                                        </a>
+                                        <a fs-consent-element="allow" href="#" class="cta w-inline-block">
+                                            <div class="button_circle_wrapper">
+                                                <div class="button4_circle">
+                                                    <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                        <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="button4_text">Accept</div>
+                                            <div class="button4_bg"></div>
+                                        </a>
+                                    </div>
+                                    <a fs-consent-element="open-preferences" href="#" class="link_cta_container w-inline-block">
+                                        <div class="link_cta">Preferences</div>
+                                        <div class="link_underline"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-theme="dark" fs-consent-element="preferences" fs-consent-animation="fade" fs-consent-duration="400" fs-consent-easing="ease" class="fs-consent_prefs">
+                            <div class="fs-consent_prefs_wrapper">
+                                <div fs-consent-easing="ease" fs-consent-animation="slide-up" fs-consent-duration="400" class="fs-consent_prefs_form-block w-form">
+                                    <form
+                                        id="email-form"
+                                        name="email-form"
+                                        data-name="Email Form"
+                                        method="get"
+                                        fs-consent-element="form"
+                                        class="fs-consent_prefs_form"
+                                        data-wf-page-id="6745ce6998fb69087b5a96db"
+                                        data-wf-element-id="1559c099-e1f3-cb1b-2a57-752f6f163131"
+                                    >
+                                        <div class="fs-consent_prefs_popup">
+                                            <div class="fs-consent_prefs_header">
+                                                <div class="fs-consent_prefs_heading"><strong>Manage Consent Preferences by Category</strong></div>
+                                            </div>
+                                            <div fs-consent-element="internal-categories-wrapper" class="fs-consent_prefs_list">
+                                                <div fs-consent-element="internal-category-essential" class="fs-consent_prefs_option">
+                                                    <div class="fs-consent_checkbox_field">
+                                                        <div class="fs-consent_checkbox_label">Essentials</div>
+                                                        <div><strong>Always active</strong></div>
+                                                    </div>
+                                                    <p class="fs-consent_prefs_description">Necessary for the site to function. Always On.<br /></p>
+                                                </div>
+                                                <div fs-consent-element="category-wrapper-personalization" class="fs-consent_prefs_option">
+                                                    <div class="fs-consent_checkbox_row">
+                                                        <div class="fs-consent_checkbox_label">Personalization</div>
+                                                        <label class="w-checkbox fs-consent_prefs_checkbox-field">
+                                                            <input
+                                                                type="checkbox"
+                                                                name="personalization-2"
+                                                                id="personalization-2"
+                                                                data-name="Personalization 2"
+                                                                fs-consent-element="checkbox-personalization"
+                                                                class="w-checkbox-input fs-consent_prefs_checkbox"
+                                                            />
+                                                            <span for="personalization-2" class="fs-consent_prefs_checkbox-label w-form-label">Personalization</span>
+                                                            <div class="fs-consent_prefs_checkbox-toggle"></div>
+                                                        </label>
+                                                    </div>
+                                                    <p class="fs-consent_prefs_description">Remembers your preferences and provides enhanced features.<br /></p>
+                                                </div>
+                                                <div fs-consent-element="category-wrapper-analytics" class="fs-consent_prefs_option">
+                                                    <div class="fs-consent_checkbox_row">
+                                                        <div class="fs-consent_checkbox_label">Analytics</div>
+                                                        <label class="w-checkbox fs-consent_prefs_checkbox-field">
+                                                            <input type="checkbox" name="analytics-2" id="analytics-2" data-name="Analytics 2" fs-consent-element="checkbox-analytics" class="w-checkbox-input fs-consent_prefs_checkbox" />
+                                                            <span for="analytics-2" class="fs-consent_prefs_checkbox-label w-form-label">Analytics</span>
+                                                            <div class="fs-consent_prefs_checkbox-toggle"></div>
+                                                        </label>
+                                                    </div>
+                                                    <p class="fs-consent_prefs_description">Measures usage and improves your experience.<br /></p>
+                                                </div>
+                                                <div fs-consent-element="category-wrapper-marketing" class="fs-consent_prefs_option">
+                                                    <div class="fs-consent_checkbox_row">
+                                                        <div class="fs-consent_checkbox_label">Marketing</div>
+                                                        <label class="w-checkbox fs-consent_prefs_checkbox-field">
+                                                            <input type="checkbox" name="marketing-2" id="marketing-2" data-name="Marketing 2" fs-consent-element="checkbox-marketing" class="w-checkbox-input fs-consent_prefs_checkbox" />
+                                                            <span for="marketing-2" class="fs-consent_prefs_checkbox-label w-form-label">Marketing</span>
+                                                            <div class="fs-consent_prefs_checkbox-toggle"></div>
+                                                        </label>
+                                                    </div>
+                                                    <p class="fs-consent_prefs_description">Used for targeted advertising.<br /></p>
+                                                </div>
+                                            </div>
+                                            <div class="fs-consent_prefs_buttons">
+                                                <div class="div-block-305">
+                                                    <a fs-consent-element="deny" href="#" class="cta w-inline-block">
+                                                        <div class="button_circle_wrapper">
+                                                            <div class="button4_circle">
+                                                                <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                                    <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="button4_text">Reject all</div>
+                                                        <div class="button4_bg"></div>
+                                                    </a>
+                                                    <a fs-consent-element="allow" href="#" class="cta w-inline-block">
+                                                        <div class="button_circle_wrapper">
+                                                            <div class="button4_circle">
+                                                                <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                                    <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="button4_text">Accept all</div>
+                                                        <div class="button4_bg"></div>
+                                                    </a>
+                                                </div>
+                                                <a fs-consent-element="close" fs-cc-action="save-preferences" href="#" class="cta_outline link fs-consent_prefs_submit w-inline-block">
+                                                    <div class="cta_outline_icon_wrapper">
+                                                        <svg width="100%" height="100%" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="button3_icon">
+                                                            <path fill-rule="evenodd" d="M12.675 9.5H0.5V7.5H12.675L7.075 1.9L8.5 0.5L16.5 8.5L8.5 16.5L7.075 15.1L12.675 9.5Z" fill="currentColor"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="cta_text">Save preferences</div>
+                                                </a>
+                                            </div>
+                                            <div fs-consent-element="close" class="fs-consent_prefs_close">
+                                                <div class="fs-consent_prefs_close-icon w-embed">
+                                                    <svg width="100%" height="100%" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                id="icon"
+                                                                d="M3.41424 2.25L2.00003 3.66421L6.58582 8.25L1.99988 12.8359L3.41409 14.2502L8.00003 9.66421L12.5854 14.2496L13.9996 12.8354L9.41424 8.25L13.9995 3.66476L12.5853 2.25055L8.00003 6.83579L3.41424 2.25Z"
+                                                                fill="currentColor"
+                                                            ></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
+                                    <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+                                </div>
+                                <div fs-consent-element="close" class="fs-consent_prefs_overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script
+            src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=672dc217e27ecc7b1096daa2"
+            type="text/javascript"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.prod.website-files.com/672dc217e27ecc7b1096daa2/js/webflow.d22bf0c24e2124c9cf7e207dd6f66871.js" type="text/javascript"></script>
+        <div id="awwwards" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%; right: 0;">
+            <a href="https://www.awwwards.com/sites/unbearable-design" target="_blank">
+                <svg width="53.08" height="171.358">
+                    <path class="js-color-bg" fill="#9BD4D7" d="M0 0h53.08v171.358H0z"></path>
+                    <g class="js-color-text" fill="#fff">
+                        <path
+                            d="M20.047 153.665v-1.9h3.888v-4.093h-3.888v-1.9h10.231v1.9h-4.59v4.093h4.59v1.9zM29.898 142.236c-.331.565-.784.997-1.359 1.294s-1.222.446-1.944.446c-.721 0-1.369-.149-1.943-.446a3.316 3.316 0 0 1-1.36-1.294c-.331-.564-.497-1.232-.497-2.002s.166-1.438.497-2.002a3.316 3.316 0 0 1 1.36-1.294c.574-.297 1.223-.445 1.943-.445.723 0 1.369.148 1.944.445a3.307 3.307 0 0 1 1.359 1.294c.331.564.497 1.232.497 2.002s-.166 1.438-.497 2.002m-1.703-3.347c-.435-.33-.967-.496-1.601-.496-.633 0-1.166.166-1.601.496-.433.332-.649.78-.649 1.346 0 .564.217 1.013.649 1.345.435.331.968.497 1.601.497.634 0 1.166-.166 1.601-.497.435-.332.649-.78.649-1.345.001-.566-.214-1.014-.649-1.346M22.911 134.852v-1.813h1.186a3.335 3.335 0 0 1-.951-1.009 2.423 2.423 0 0 1-.352-1.271c0-.682.19-1.229.57-1.645.381-.413.932-.621 1.652-.621h5.262v1.812h-4.721c-.419 0-.727.096-.921.285-.195.19-.292.447-.292.769 0 .302.115.58.35.833.234.254.577.458 1.03.613.454.156.993.234 1.616.234h2.938v1.813h-7.367zM29.898 125.136a3.314 3.314 0 0 1-1.359 1.294c-.575.297-1.222.445-1.944.445-.721 0-1.369-.148-1.943-.445a3.322 3.322 0 0 1-1.36-1.294c-.331-.565-.497-1.232-.497-2.002 0-.771.166-1.438.497-2.003a3.313 3.313 0 0 1 1.36-1.293c.574-.297 1.223-.446 1.943-.446.723 0 1.369.149 1.944.446s1.028.728 1.359 1.293.497 1.232.497 2.003c.001.769-.166 1.436-.497 2.002m-1.703-3.347c-.435-.331-.967-.497-1.601-.497-.633 0-1.166.166-1.601.497-.433.331-.649.778-.649 1.345 0 .564.217 1.013.649 1.344.435.332.968.498 1.601.498.634 0 1.166-.166 1.601-.498.435-.331.649-.779.649-1.344.001-.567-.214-1.014-.649-1.345M22.911 117.75v-1.812h1.199c-.419-.265-.742-.586-.972-.966s-.345-.784-.345-1.213c0-.272.05-.569.146-.892l1.682.336a1.429 1.429 0 0 0-.205.76c0 .576.261 1.048.783 1.418.521.37 1.342.557 2.461.557h2.617v1.812h-7.366zM29.812 111.252c-.391.511-.857.851-1.403 1.016l-.776-1.446c.381-.138.68-.329.893-.577.215-.249.321-.544.321-.885a1.2 1.2 0 0 0-.168-.658c-.112-.175-.294-.263-.548-.263-.225 0-.406.105-.548.313-.142.21-.291.534-.446.973-.019.068-.058.17-.117.307-.224.565-.506 1.004-.848 1.315-.34.313-.779.467-1.314.467-.381 0-.727-.102-1.039-.306a2.185 2.185 0 0 1-.744-.84 2.554 2.554 0 0 1-.279-1.207c0-.497.105-.949.314-1.359.211-.408.506-.725.886-.949l.993 1.082c-.43.292-.644.686-.644 1.184a.84.84 0 0 0 .154.504.471.471 0 0 0 .401.212c.176 0 .338-.103.49-.307.15-.205.334-.604.547-1.199.205-.564.474-1.001.805-1.308.332-.308.756-.46 1.271-.46.721 0 1.299.229 1.732.687s.65 1.057.65 1.797c.001.759-.194 1.396-.583 1.907M35.481 17.006l-4.782 14.969h-3.266l-2.584-9.682-2.584 9.682h-3.268l-4.782-14.969h3.713l2.673 10.276 2.525-10.276h3.445l2.524 10.276 2.674-10.276zM37.978 27.163c1.426 0 2.496 1.068 2.496 2.495 0 1.425-1.07 2.495-2.496 2.495-1.425 0-2.494-1.07-2.494-2.495-.001-1.427 1.069-2.495 2.494-2.495"
+                        ></path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+        <script>
+            pageFunctions.executeFunctions();
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Funzione per rilevare Safari
+                function isSafari() {
+                    return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+                }
+
+                if (!isSafari()) {
+                    // Inizializza Lenis
+                    const lenis = new Lenis({
+                        lerp: 0.1,
+                        wheelMultiplier: 0.7,
+                        gestureOrientation: "vertical",
+                        normalizeWheel: false,
+                        smoothTouch: false,
+                    });
+
+                    function raf(time) {
+                        lenis.raf(time);
+                        requestAnimationFrame(raf);
+                    }
+                    requestAnimationFrame(raf);
+
+                    gsap.registerPlugin(ScrollTrigger);
+
+                    // Informa ScrollTrigger dello scroller personalizzato
+                    ScrollTrigger.scrollerProxy(document.body, {
+                        scrollTop(value) {
+                            return arguments.length ? lenis.scrollTo(value) : lenis.scroll.instance.scroll.y;
+                        },
+                        getBoundingClientRect() {
+                            return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+                        },
+                    });
+
+                    lenis.on("scroll", ScrollTrigger.update);
+
+                    ScrollTrigger.addEventListener("refresh", () => lenis.update());
+                    ScrollTrigger.refresh();
+                } else {
+                    console.info("Safari rilevato. Lenis disattivato.");
+                }
+            });
+        </script>
+
+        <!-- Toggle Button e Navbar Changing Color Script Combinato -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Verifica GSAP e ScrollTrigger
+                let scrollTriggerAvailable = false;
+                if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
+                    gsap.registerPlugin(ScrollTrigger);
+                    scrollTriggerAvailable = true;
+                } else {
+                    console.warn("GSAP o ScrollTrigger non disponibili.");
+                }
+
+                // Verifica Lenis
+                let lenisAvailable = typeof window.lenis !== "undefined";
+
+                // Integrazione Lenis + ScrollTrigger
+                if (lenisAvailable && scrollTriggerAvailable) {
+                    ScrollTrigger.scrollerProxy(document.body, {
+                        scrollTop(value) {
+                            return arguments.length ? window.lenis.scrollTo(value) : window.lenis.animatedScroll;
+                        },
+                        getBoundingClientRect() {
+                            return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+                        },
+                    });
+                    window.lenis.on("scroll", ScrollTrigger.update);
+                    gsap.ticker.add((time) => {
+                        window.lenis.raf(time * 1000);
+                    });
+                } else if (scrollTriggerAvailable) {
+                    console.warn("Lenis non disponibile, uso scroll nativo.");
+                }
+
+                function setTheme(theme) {
+                    document.body.setAttribute("data-theme", theme);
+                    localStorage.setItem("theme", theme);
+                }
+
+                function toggleTheme() {
+                    const currentTheme = document.body.getAttribute("data-theme");
+                    const newTheme = currentTheme === "dark" ? "light" : "dark";
+                    setTheme(newTheme);
+                }
+
+                window.toggleTheme = toggleTheme;
+
+                function initializeTheme() {
+                    const savedTheme = localStorage.getItem("theme");
+                    const systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+                    const initialTheme = savedTheme || (systemPrefersDark ? "dark" : "light");
+                    setTheme(initialTheme);
+                }
+
+                initializeTheme();
+
+                const toggleBtn = document.getElementById("theme-toggle-btn");
+                if (!toggleBtn) {
+                    console.warn("Nessun #theme-toggle-btn trovato.");
+                }
+
+                if (toggleBtn) {
+                    toggleBtn.addEventListener("click", function () {
+                        if (!toggleBtn.disabled) {
+                            toggleTheme();
+                            // Dopo il cambio tema, aggiorna
+                            requestAnimationFrame(() => {
+                                applyNavbarAnimation();
+                                if (scrollTriggerAvailable) {
+                                    ScrollTrigger.refresh();
+                                    ScrollTrigger.update();
+                                }
+                            });
+                        }
+                    });
+                }
+
+                let navbarScrollTriggers = [];
+
+                function applyNavbarAnimation() {
+                    const sections = $("section[data-theme]");
+                    if (sections.length === 0) {
+                        console.warn("Nessuna sezione con [data-theme].");
+                    }
+
+                    const navWrap = $(".nav_1_wrap");
+                    if (navWrap.length === 0) {
+                        console.warn("Nessun .nav_1_wrap trovato.");
+                    }
+
+                    // Elimina triggers esistenti
+                    if (scrollTriggerAvailable) {
+                        navbarScrollTriggers.forEach((trigger) => trigger.kill());
+                        navbarScrollTriggers = [];
+                    }
+
+                    const bodyTheme = document.body.getAttribute("data-theme");
+                    const offset = window.innerHeight * 0.1;
+
+                    if (scrollTriggerAvailable && sections.length > 0) {
+                        sections.each(function (index) {
+                            const section = $(this);
+                            const dataTheme = section.attr("data-theme");
+
+                            let theme;
+                            if (dataTheme === "dark") {
+                                theme = "dark";
+                            } else if (dataTheme === "inherit" || dataTheme === "invert") {
+                                theme = bodyTheme;
+                            } else {
+                                theme = dataTheme;
+                            }
+
+                            let themeToggleAllowed = dataTheme === "inherit" || dataTheme === "invert";
+                            let startValue = index === 0 ? `top-=${offset} top` : "top top";
+
+                            const scrollerValue = lenisAvailable && scrollTriggerAvailable ? document.body : undefined;
+
+                            if (scrollTriggerAvailable) {
+                                const enterTrigger = ScrollTrigger.create({
+                                    trigger: section[0],
+                                    start: startValue,
+                                    scroller: scrollerValue,
+                                    onEnter: function () {
+                                        if (navWrap.length > 0) {
+                                            navWrap.attr("data-theme", theme);
+                                        }
+                                        if (toggleBtn) {
+                                            if (themeToggleAllowed) {
+                                                toggleBtn.style.opacity = "1";
+                                                toggleBtn.disabled = false;
+                                            } else {
+                                                toggleBtn.style.opacity = "0.2";
+                                                toggleBtn.disabled = true;
+                                            }
+                                        }
+                                    },
+                                    onLeaveBack: function () {
+                                        if (index === 0) return;
+
+                                        let prevTheme, prevThemeToggleAllowed;
+                                        if (index > 0) {
+                                            const prevSection = sections.eq(index - 1);
+                                            const prevDataTheme = prevSection.attr("data-theme");
+                                            const prevBodyTheme = document.body.getAttribute("data-theme");
+
+                                            if (prevDataTheme === "dark") {
+                                                prevTheme = "dark";
+                                            } else if (prevDataTheme === "inherit" || prevDataTheme === "invert") {
+                                                prevTheme = prevBodyTheme;
+                                            } else {
+                                                prevTheme = prevDataTheme;
+                                            }
+
+                                            prevThemeToggleAllowed = prevDataTheme === "inherit" || prevDataTheme === "invert";
+                                        } else {
+                                            const bodyTheme = document.body.getAttribute("data-theme");
+                                            prevTheme = bodyTheme;
+                                            prevThemeToggleAllowed = false;
+                                        }
+
+                                        if (navWrap.length > 0) {
+                                            navWrap.attr("data-theme", prevTheme);
+                                        }
+                                        if (toggleBtn) {
+                                            if (prevThemeToggleAllowed) {
+                                                toggleBtn.style.opacity = "1";
+                                                toggleBtn.disabled = false;
+                                            } else {
+                                                toggleBtn.style.opacity = "0.2";
+                                                toggleBtn.disabled = true;
+                                            }
+                                        }
+                                    },
+                                });
+
+                                navbarScrollTriggers.push(enterTrigger);
+                            }
+                        });
+                    }
+
+                    if (scrollTriggerAvailable) {
+                        ScrollTrigger.refresh();
+
+                        // Se non ci sono triggers, crea un dummy trigger
+                        let allTriggers = ScrollTrigger.getAll();
+                        if (allTriggers.length === 0) {
+                            // Trigger fittizio
+                            ScrollTrigger.create({
+                                trigger: document.documentElement,
+                                start: "top top",
+                                onEnter: () => {
+                                    /* dummy */
+                                },
+                            });
+                            ScrollTrigger.refresh();
+                        }
+                    }
+
+                    const scrollPos = window.scrollY || window.pageYOffset;
+                    let currentSectionIndex = -1;
+                    sections.each(function (index) {
+                        const section = $(this);
+                        const offsetTop = section.offset().top;
+                        const offsetBottom = offsetTop + section.outerHeight();
+                        if (scrollPos >= offsetTop && scrollPos < offsetBottom) {
+                            currentSectionIndex = index;
+                            return false;
+                        }
+                    });
+
+                    if (currentSectionIndex >= 0) {
+                        const currentSection = sections.eq(currentSectionIndex);
+                        const dataTheme = currentSection.attr("data-theme");
+
+                        let theme;
+                        if (dataTheme === "dark") {
+                            theme = "dark";
+                        } else if (dataTheme === "inherit" || dataTheme === "invert") {
+                            theme = bodyTheme;
+                        } else {
+                            theme = dataTheme;
+                        }
+
+                        let themeToggleAllowed = dataTheme === "inherit" || dataTheme === "invert";
+
+                        if (navWrap.length > 0) {
+                            navWrap.attr("data-theme", theme);
+                        }
+                        if (toggleBtn) {
+                            if (themeToggleAllowed) {
+                                toggleBtn.style.opacity = "1";
+                                toggleBtn.disabled = false;
+                            } else {
+                                toggleBtn.style.opacity = "0.2";
+                                toggleBtn.disabled = true;
+                            }
+                        }
+                    }
+                }
+
+                applyNavbarAnimation();
+
+                const observer = new MutationObserver(() => {
+                    requestAnimationFrame(() => {
+                        applyNavbarAnimation();
+                        if (scrollTriggerAvailable) {
+                            ScrollTrigger.refresh();
+                            ScrollTrigger.update();
+                        }
+                    });
+                });
+
+                observer.observe(document.body, { attributes: true, attributeFilter: ["data-theme"] });
+
+                document.addEventListener("visibilitychange", function () {
+                    if (document.visibilityState === "visible") {
+                        applyNavbarAnimation();
+                        if (scrollTriggerAvailable) {
+                            ScrollTrigger.refresh();
+                            ScrollTrigger.update();
+                        }
+                    }
+                });
+
+                window.addEventListener("focus", function () {
+                    applyNavbarAnimation();
+                    if (scrollTriggerAvailable) {
+                        ScrollTrigger.refresh();
+                        ScrollTrigger.update();
+                    }
+                });
+            });
+        </script>
+
+        <!-- Cookie banner script -->
+        <script>
+            (async function () {
+                const endpoint = "https://unbearable-cookie-consent.michelangelo-giorgini.workers.dev/";
+
+                const bannerEl = document.querySelector('[fs-consent-element="banner"]');
+                const preferencesEl = document.querySelector('[fs-consent-element="preferences"]');
+
+                const openPreferencesBtns = document.querySelectorAll('[fs-consent-element="open-preferences"]');
+                const allowBtns = document.querySelectorAll('[fs-consent-element="allow"]');
+                const denyBtns = document.querySelectorAll('[fs-consent-element="deny"]');
+                const closeBtns = document.querySelectorAll('[fs-consent-element="close"]');
+
+                const checkboxPersonalization = document.querySelector('[fs-consent-element="checkbox-personalization"]');
+                const checkboxAnalytics = document.querySelector('[fs-consent-element="checkbox-analytics"]');
+                const checkboxMarketing = document.querySelector('[fs-consent-element="checkbox-marketing"]');
+
+                let currentPrefs = { personalization: false, analytics: false, marketing: false };
+
+                function getCookie(name) {
+                    const match = document.cookie.match(new RegExp("(^|;\\s*)" + name + "=([^;]*)"));
+                    return match ? decodeURIComponent(match[2]) : null;
+                }
+
+                let userId = getCookie("user_id");
+
+                if (!userId) {
+                    const resp = await fetch(endpoint, { method: "GET", credentials: "include" });
+                    const data = await resp.json();
+                    userId = getCookie("user_id");
+                }
+
+                async function getPreferences() {
+                    const resp = await fetch(`${endpoint}?id=${userId}`, { method: "GET", credentials: "include" });
+                    if (!resp.ok) return null;
+                    const data = await resp.json();
+                    return data.preferences || null;
+                }
+
+                async function setPreferences() {
+                    const payload = { id: userId, consents: currentPrefs };
+                    await fetch(endpoint, {
+                        method: "PUT",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify(payload),
+                        credentials: "include",
+                    });
+                }
+
+                function simulateClickIfNeeded(checkbox, desiredState) {
+                    if (checkbox && checkbox.checked !== desiredState) {
+                        checkbox.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+                    }
+                }
+
+                const prefs = await getPreferences();
+
+                if (!prefs) {
+                    bannerEl.style.display = "block";
+                } else {
+                    currentPrefs = { ...prefs };
+                    Webflow.require("ix2").init();
+
+                    simulateClickIfNeeded(checkboxPersonalization, !!currentPrefs.personalization);
+                    simulateClickIfNeeded(checkboxAnalytics, !!currentPrefs.analytics);
+                    simulateClickIfNeeded(checkboxMarketing, !!currentPrefs.marketing);
+
+                    bannerEl.style.display = "none";
+                }
+
+                allowBtns.forEach((btn) => {
+                    btn.addEventListener("click", async () => {
+                        currentPrefs = { personalization: true, analytics: true, marketing: true };
+                        await setPreferences();
+                        bannerEl.style.display = "none";
+                        preferencesEl.style.display = "none";
+                        simulateClickIfNeeded(checkboxPersonalization, true);
+                        simulateClickIfNeeded(checkboxAnalytics, true);
+                        simulateClickIfNeeded(checkboxMarketing, true);
+                    });
+                });
+
+                denyBtns.forEach((btn) => {
+                    btn.addEventListener("click", async () => {
+                        currentPrefs = { personalization: false, analytics: false, marketing: false };
+                        await setPreferences();
+                        bannerEl.style.display = "none";
+                        preferencesEl.style.display = "none";
+                        simulateClickIfNeeded(checkboxPersonalization, false);
+                        simulateClickIfNeeded(checkboxAnalytics, false);
+                        simulateClickIfNeeded(checkboxMarketing, false);
+                    });
+                });
+
+                openPreferencesBtns.forEach((btn) => btn.addEventListener("click", () => (preferencesEl.style.display = "block")));
+                closeBtns.forEach((btn) => btn.addEventListener("click", () => (preferencesEl.style.display = "none")));
+
+                checkboxPersonalization?.addEventListener("change", async () => {
+                    currentPrefs.personalization = checkboxPersonalization.checked;
+                    await setPreferences();
+                });
+
+                checkboxAnalytics?.addEventListener("change", async () => {
+                    currentPrefs.analytics = checkboxAnalytics.checked;
+                    await setPreferences();
+                });
+
+                checkboxMarketing?.addEventListener("change", async () => {
+                    currentPrefs.marketing = checkboxMarketing.checked;
+                    await setPreferences();
+                });
+            })();
+        </script>
+    </body>
+    <!-- Mirrored from www.unbearable.design/netfolie-case-study by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Jan 2025 11:17:26 GMT -->
+</html>
